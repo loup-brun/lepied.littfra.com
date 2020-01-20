@@ -1,0 +1,48 @@
+{{- define "main" -}}
+
+<div class="column-left">
+  <!-- Main header -->
+  <header>
+    <h1>
+      {{- .Params.title -}}
+    </h1>
+
+    <div class="tagline">
+      {{- .Params.tagline -}}
+    </div>
+  </header>
+
+  <!-- Content goes here -->
+  <article class="content">
+    {{- .Content -}}
+  </article>
+</div>
+
+<div class="column-right">
+  <!-- Social Links -->
+  <nav>
+    <ul>
+      {{ range $.Site.Params.social_links }}
+      <li>
+        <a href="{{ .link }}" target="_blank">
+          {{- .text -}}
+        </a>
+      </li>
+      {{- end -}}
+    </ul>
+  </nav>
+
+  <!-- Lastly, other stuff -->
+  <footer>
+    <ul>
+      {{ range $.Site.Params.footer_links }}
+      <li>
+        <a href="{{ .link }}" target="_blank">
+          {{- .text -}}
+        </a>
+      </li>
+      {{- end -}}
+    </ul>
+  </footer>
+</div>
+{{- end -}}

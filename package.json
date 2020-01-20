@@ -1,0 +1,22 @@
+{
+  "name": "lepied.littfra.com",
+  "version": "2.0.0-beta",
+  "description": "Site web du Pied, la revue de création des étudiant(e)s en littératures de langue française de l'Université de Montréal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@framagit.org:le-pied/lepied.littfra.com.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Louis-Olivier Brassard",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0"
+  }
+}

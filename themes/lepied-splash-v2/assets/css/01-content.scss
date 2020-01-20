@@ -1,0 +1,515 @@
+//-------------------------------------------------------------------------------
+// Variables
+//-------------------------------------------------------------------------------
+
+// Color sheme inspired by:
+// http://www.thedayscolor.com/#radioheadthief
+
+$color-light:     #E5ECE1;
+$color-richgreen: #0d3018;
+$color-gold:      #FC8122;
+$color-charcoal:  #0C1A25;
+$color-blue:      #387A9F;
+$color-red:       #DD1A2A;
+
+$forestgreen:     #44543C;
+$lazymustard:     #A87141;
+$deadsalmon:      #DEADAD;
+
+// Colors
+$color-background : $lazymustard;
+$color-text       : $deadsalmon;
+$color-link       : $deadsalmon;
+$color-link-hover : $deadsalmon;
+$color-maverick   : $deadsalmon;
+$color-tagline    : $deadsalmon;
+
+// Breakpoints
+$bp-smallish      : 1200px;
+$bp-tablet        : 800px;
+$bp-mobile        : 500px;
+
+// Images
+// $image-background : url('../../images/background.jpg');
+
+//-------------------------------------------------------------------------------
+// Fade In
+//-------------------------------------------------------------------------------
+
+@keyframes fadein {
+    from { opacity: 0;}
+    25% { opacity: 0;}
+    to   { opacity: 1;}
+}
+
+
+//-------------------------------------------------------------------------------
+// Select (theming)
+//-------------------------------------------------------------------------------
+::selection {
+  background-color: darken($color-background, 5%);
+  color: $color-text;
+}
+
+%decorated-link {
+  color: $color-link;
+  transition-duration: 0.6s;
+  border-bottom: 1px solid $color-link;
+  
+  .link-reveal {
+    display: inline-block;
+    width: 0;
+    transition: .3s;
+    opacity: 0;
+    height: 1em;
+    transform: translateX(-5px);
+  }
+
+  &:hover {
+    color: $color-link-hover;
+    transition-duration: 0.6s;
+    border-bottom-color: transparent;
+    
+    .link-reveal {
+      opacity: 1;
+      width: 1em;
+      transform: translateX(0);
+    }
+  }
+}
+
+//-------------------------------------------------------------------------------
+// Content
+//-------------------------------------------------------------------------------
+
+html {
+  background-color: $color-background;
+}
+
+body {
+  background-color: $color-background;
+  font-family: 'FedraSans', 'SegoeUI', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.5;
+  color: $color-text;
+
+  //-------------------------------------------------------------------------------
+  // Global Styles
+  //-------------------------------------------------------------------------------
+
+  p {
+    color: $color-text;
+  }
+  
+  a {
+    color: $color-link;
+    
+    &:hover {
+      color: $color-link-hover;
+    }
+  }
+
+}
+
+//-------------------------------------------------------------------------------
+// Sections and Columns
+//-------------------------------------------------------------------------------
+
+.full-landing {
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 40px;
+  @media (min-width: $bp-tablet) {
+    padding: 80px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  background-color: $color-background;
+  color: $color-text;
+
+  @media (max-width: $bp-tablet ) {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  //-------------------------------------------------------------------------------
+  // Column - Big Image
+  //-------------------------------------------------------------------------------
+
+  .split-image {
+    width: 33%;
+    height: 100vh;
+    // background-image: $image-background;
+    // background-position:center center;
+    background-size:cover;
+
+    @media (max-width: $bp-tablet ) {
+      height: 80vh;
+      width: 100%;
+    }
+
+  }
+
+  //-------------------------------------------------------------------------------
+  // Columns
+  //-------------------------------------------------------------------------------
+
+  .column-left, .column-right {
+    @media (min-width: $bp-tablet) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+}
+
+//-------------------------------------------------------------------------------
+// Content
+//-------------------------------------------------------------------------------
+
+//-------------------------------------------------------------------------------
+// Intro Text
+//-------------------------------------------------------------------------------
+
+header {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.25;
+//  letter-spacing: -2px;
+  margin-bottom: 20px;
+  max-width: 32em;
+
+  animation: fadein 1.5s;
+
+  h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 48px;
+    @media (min-width: $bp-mobile) {
+      font-size: 10vw;
+    }
+    @media (min-width: $bp-tablet) {
+      font-size: 7.5vw;
+    }
+    line-height: 1.15;
+    margin-bottom: 1px;
+    letter-spacing: 0.5px;
+    color: $color-maverick;
+  }
+
+  .tagline {
+    color: $color-tagline;
+  }
+
+}
+
+nav {
+  animation: fadein 3s;
+  
+  @media (max-width: $bp-tablet) {
+    margin: 3rem 0;
+  }
+  
+  ul {
+    text-align: center;
+    @media (min-width: $bp-tablet) {
+      text-align: right;
+    }
+
+    li {
+      margin-left: .5em;
+      display: inline-block;
+      padding: .15em .5em;
+      position: relative;
+      &:not(:first-child)::before {
+        content: "·";
+        position: absolute;
+        left: -.5em;
+      }
+    }
+  }
+}
+
+footer {
+  margin-top: 1rem;
+  
+  @media (min-width: $bp-tablet) {
+    text-align: right;
+  }
+  
+  animation: fadein 4s;
+}
+
+//-------------------------------------------------------------------------------
+// Biography
+//-------------------------------------------------------------------------------
+
+.content {
+  margin: 3rem 0 0;
+  
+  > p:last-child {
+    margin-bottom: 0;
+  }
+  
+  animation: fadein 2.5s ;
+
+  @media (max-width: $bp-smallish ) {
+//    padding: 30px 0 10px 0;
+  }
+
+  @media (max-width: $bp-tablet ) {
+//    padding: 20px 0 0 0;
+  }
+  
+  a {
+    @extend %decorated-link;
+  }
+
+  p {
+    color: $color-text;
+    margin-bottom: 20px;
+    line-height: inherit;
+  }
+
+  em,
+  i {
+    font-style: italic;
+    line-height: inherit;
+  }
+
+  strong,
+  b {
+    font-weight: bold;
+    line-height: inherit;
+  }
+
+  small {
+    font-size: 80%;
+    line-height: inherit;
+  }
+
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    font-style: normal;
+    font-weight: 400;
+    color: inherit;
+  }
+
+  h1 small, .h1 small,
+  h2 small, .h2 small,
+  h3 small, .h3 small,
+  h4 small, .h4 small,
+  h5 small, .h5 small,
+  h6 small, .h6 small {
+    line-height: 0;
+  }
+
+  h1, .h1 {
+    font-size: 1.5em;
+    line-height: inherit;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  h2, .h2 {
+    font-size: 1.25em;
+    line-height: inherit;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  h3, .h3 {
+    font-size: 1.1875em;
+    line-height: inherit;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  h4, .h4 {
+    font-size: 1.125em;
+    line-height: inherit;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  h5, .h5 {
+    font-size: 1.0625em;
+    line-height: inherit;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  h6, .h6 {
+    font-size: 1em;
+    line-height: inherit;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  ul,
+  ol,
+  dl {
+    margin-bottom: 20px;
+    list-style-position: outside;
+    line-height: inherit;
+  }
+
+  li {
+    font-size: inherit;
+  }
+
+  ul {
+    margin-left: 2.25em;
+    list-style-type: disc;
+  }
+
+  ol {
+    margin-left: 2.25em;
+    list-style-type: decimal;
+  }
+
+  ul ul, ol ul, ul ol, ol ol {
+    margin-left: 1.25em;
+    margin-bottom: 0;
+  }
+
+  dl dt {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  dl dd {
+    margin-bottom: 10px;
+  }
+}
+
+//-------------------------------------------------------------------------------
+// Lists
+//-------------------------------------------------------------------------------
+
+.split-lists {
+  max-width: 480px;
+
+  .split-list {
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 30px;
+    vertical-align: top;
+
+    @media (max-width: $bp-mobile ) {
+      width: 90%;
+    }
+
+    h3 {
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 11px;
+      line-height: 11px;
+      margin-bottom: 20px;
+      color: $color-text;
+      letter-spacing: 2px;
+      opacity: 0.5;
+    }
+
+    ul {
+
+
+      li {
+        font-size: 14px;
+        line-height: 1.25;
+        margin-bottom: 12px;
+
+        a {
+          color: $color-text;
+          transition-duration: 0.5s;
+
+          &:hover {
+            color: $color-link-hover;
+            transition-duration: 0.1s;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+//-------------------------------------------------------------------------------
+// Credit
+//-------------------------------------------------------------------------------
+
+//  To edit this credit you can remove the CC3.0 license for only $5 here: https://onepagelove.com/split
+//  this really helps contribute towards us developing more templates and means the world to me!
+//  Cheers, Rob (@robhope)
+
+.split-credit {
+  opacity: 0.7;
+
+  p {
+    font-size: 12px;
+    line-height: 14px;
+
+    a {
+      color: $color-text;
+    }
+
+  }
+
+}
+
+//-------------------------------------------------------------------------------
+// Videos - shout out to my bud https://twitter.com/manuelmoreale for the Ninja skills
+//-------------------------------------------------------------------------------
+
+// YouTube
+
+.split-video {
+  overflow:hidden;
+  position:relative;
+}
+.video-wrap{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+.video-container {
+  position:relative;
+  overflow:hidden;
+  height: 56.25vw;
+  width: 100vw;
+  @media (max-aspect-ratio:16/9) {
+    height: 100vh;
+    width: 177.7777777778vh; // this is for the ration 16:9
+  }
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// Self-Hosted
+
+video.video {
+  object-fit      : cover;
+  object-position : 50% 50%;
+  width           : 100%;
+  height          : 100%;
+}

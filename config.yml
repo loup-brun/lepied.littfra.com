@@ -1,0 +1,44 @@
+# Site settings
+baseURL: "http://lepied.littfram.com"
+languageCode: "fr-ca"
+defaultContentLanguage: "fr"
+title: "Le Pied"
+
+theme: "lepied-splash-v2"
+disableKinds: ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Copyright
+#copyright: "&copy;2020 Louis-Olivier Brassard"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+
+  # Metadata for search engines and social sharing
+  author: "Louis-Olivier Brassard"
+  description: "Le petit loup brun du Québec."
+  shareImage: "images/shareimage.jpg"
+  appleTouchIcon: "images/apple-touch-icon.png"
+  twitterHandle: "_loupbrun"
+
+  # Favicon
+  favicon: "/images/favicon.png"
+
+  # Links
+  social_links:
+  - text: "facebook"
+    link: "https://www.facebook.com/revuelepied/"
+  - text: "instagram"
+    link: "https://www.instagram.com/revuelepied/"
+
+  footer_links:
+  - text: "nous joindre"
+    link: "mailto:redaction.lepied@littfra.com?subject=Bonjour!"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split
