@@ -1,0 +1,63 @@
+
+/* purgecss start ignore */
+::selection {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.content {
+  a {
+    color: theme('colors.tertiaire');
+    text-decoration: underline;
+    
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+  strong {
+    font-weight: 700;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  p {
+    margin-bottom: 1.5em;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+  }
+  
+  h1 {
+    @apply text-3xl;
+    @screen sm {
+      @apply text-6xl;
+    }
+  }
+  
+  h2 {
+    @apply text-2xl;
+    
+    @screen sm {
+      @apply text-5xl;
+    }
+  }
+  
+  h3 {
+    @apply text-xl;
+    @screen sm {
+      @apply text-2xl;
+    }
+  }
+}
+/* purgecss end ignore */

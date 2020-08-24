@@ -10,6 +10,7 @@ serve:
 	hugo serve --disableFastRender
 
 build:
+	npm run build:styles
 	hugo '--minify'
 
 build-staging:

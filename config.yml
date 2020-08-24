@@ -4,11 +4,10 @@ languageCode: "fr-ca"
 defaultContentLanguage: "fr"
 title: "Le Pied"
 
-theme: "lepied-splash-v2"
-disableKinds: ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+#theme: "boilerplate"
 
 # Copyright
-#copyright: "&copy;2020 Louis-Olivier Brassard"
+copyright: "CC BY-NC-ND 4.0"
 
 markup:
   goldmark:
@@ -18,11 +17,11 @@ markup:
 params:
 
   # Metadata for search engines and social sharing
-  author: "Louis-Olivier Brassard"
-  description: "Le petit loup brun du Québec."
+  author: "Le Pied"
+  description: "La revue de création des étudiant·e·s en littératures de langue française de l'Université de Montréal."
   shareImage: "images/shareimage.jpg"
   appleTouchIcon: "images/apple-touch-icon.png"
-  twitterHandle: "_loupbrun"
+  twitterHandle: "lepied"
 
   # Favicon
   favicon: "/images/favicon.png"
@@ -42,3 +41,19 @@ params:
   # Please keep the original attribution link when using for your own project.
   # If you'd like to use the template without the attribution, you can check out
   # the license option via the template author's website: https://onepagelove.com/split
+
+# Menu
+menu:
+  main:
+    - identifier: revue
+      title: revue
+      url: /revue
+      weight: 1
+    - identifier: publications
+      title: publications
+      url: /publications
+      weight: 2
+    - identifier: evenements
+      title: événements
+      url: /evenements
+      weight: 3

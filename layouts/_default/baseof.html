@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js bg-fond {{ block "html-class" . }} {{ end }}" lang="{{ .Page.Lang }}">
+
+  <head>
+    {{- partial "head/head.html" . -}}
+    {{/* "title" block outside head.html to render on different page types */}}
+    <title>{{ block "title" . -}}
+      {{ with .Title }}{{ . | markdownify | plainify }} &mdash; {{ end }}{{ .Site.Title }}
+      {{- end }}</title>
+  </head>
+
+  <body>
+
+    <header class="bg-primaire text-secondaire py-8">
+      {{- block "header" . }}
+      {{- partial "header.html" . -}}
+      {{- end -}}
+    </header>
+
+    {{- block "main" . }}{{/* Default to article with content */}}
+    <main class="text-xl leading-snug">
+      <article class="content px-6 md:px-16 max-w-5xl py-16">
+        
+        {{- block "main-inner" . }}
+        {{- .Content -}}
+        {{ end -}}
+      </article>
+      
+      <div class="px-6 md:px-16 max-w-5xl py-16">
+        {{ block "big-menu" . -}}
+        {{ partial "menus/big-menu.html" . }}
+        {{- end }}
+      </div>
+    </main>
+    {{- end }}
+
+    <footer class="bg-primaire text-secondaire py-12">
+      {{- block "footer" . }}
+      {{- partial "footer.html" . -}}
+      {{- end -}}
+    </footer>
+
+    <script>
+      {{- $espaceFineJS := resources.Get "scripts/espacefine.js" | resources.Minify }}
+      {{ $espaceFineJS.Content | safeJS -}}
+       // espacefine for French
+       if (document.documentElement.getAttribute('lang').match(/^fr/)) {
+         espaceFine();
+       }
+    </script>
+
+  </body>
+</html>
