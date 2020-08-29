@@ -10,12 +10,14 @@
     text-decoration: underline;
     
     &:hover {
+      color: theme('colors.secondaire');
       text-decoration: none;
     }
   }
   
   strong {
     font-weight: 700;
+    color: theme('colors.secondary');
   }
   
   em {
@@ -24,6 +26,10 @@
   
   p {
     margin-bottom: 1.5em;
+  }
+  
+  hr {
+    @apply border-t-2 border-primaire my-6;
   }
   
   h1,
@@ -49,7 +55,7 @@
     @apply text-2xl;
     
     @screen sm {
-      @apply text-5xl;
+      @apply text-4xl;
     }
   }
   
@@ -58,6 +64,17 @@
     @screen sm {
       @apply text-2xl;
     }
+  }
+}
+
+.Article {
+  @apply m-1 bg-blanc;
+
+  @screen sm {
+    @apply m-2;
+  }
+  @screen md {
+    @apply m-7
   }
 }
 /* purgecss end ignore */

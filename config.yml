@@ -4,6 +4,8 @@ languageCode: "fr-ca"
 defaultContentLanguage: "fr"
 title: "Le Pied"
 
+buildFuture: true
+
 #theme: "boilerplate"
 
 # Copyright

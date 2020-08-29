@@ -7,28 +7,39 @@
 
 {{- define "main-inner" -}}
 
-{{- if .Content -}}
-<article class="content">
-  {{- .Content -}}
-</article>
-{{- end -}}
+<article class="px-6 md:px-16 max-w-5xl py-16">
+  <div class="content">
+    <header class="mb-12">
+      {{ partial "page-header.html" . -}}
+    </header>
 
-{{- if .Pages -}}
-<ul class="list-unstyled">
-  {{- range .Pages -}}
-  <li>
-    {{- .Render "summary" -}}
-  </li>
+    {{- .Content -}}
+    
+  </div>
+
+  {{- if .Pages -}}
+  <ul class="list-unstyled my-12">
+    {{- range .Pages.ByTitle -}}
+    <li class="text-primaire">
+      {{- .Render "summary" -}}
+    </li>
+    {{- end -}}
+  </ul>
+
+  {{ with .OutputFormats.Get "rss" -}}
+  <footer class="mt-12 text-sm">
+    s’abonner à cette section via
+    <a rel="{{ .Rel }}"
+       type="{{ .MediaType.Type }}"
+       href="{{ .Permalink }}"
+       title="RSS"
+       class="text-tertiaire hover:text-secondaire border-b-2 border-current hover:border-none">RSS&nbsp;&nearr;</a>
+  </footer>
+  {{ end -}}
+  {{ else }}
+  
+  <p class="text-2xl md:text-5xl text-tertiaire my-20">(rien à voir pour le moment, mais revenez bientôt, ça mijote!)</p>
   {{- end -}}
-</ul>
-{{- end -}}
-
-{{- if .Pages -}}
-{{ with .OutputFormats.Get "rss" -}}
-<footer>
-  <a rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="RSS">RSS</a>
-</footer>
-{{ end -}}
-{{- end -}}
+</article>
 
 {{- end -}}

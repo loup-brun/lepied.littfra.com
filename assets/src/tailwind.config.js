@@ -1,17 +1,32 @@
 let couleursLePied = {
-  forest: '#44543C',
-  moutarde: '#A87141',
-  saumon: '#DEADAD',
-  papier: '#EEE5DE',
+  // hiver 2020
+  hiver2020: {
+    forest: '#44543C',
+    moutarde: '#A87141',
+    saumon: '#DEADAD',
+    papier: '#EEE5DE',
+  },
+
+  // printemps
+  printemps2020: {
+    forest: '#406559',
+    delave: '#7F928B',
+    acier: '#6A828E',
+    nuage: '#CCCDCF',
+    aluminium: '#D4D5D9',
+  }
 }
 module.exports = {
   theme: {
     extend: {
       colors: {
-        primaire: couleursLePied.forest,
-        secondaire: couleursLePied.saumon,
-        tertiaire: couleursLePied.moutarde,
-        fond: couleursLePied.papier,
+        // hiver 2020
+        primaire: couleursLePied.printemps2020.delave,
+        secondaire: couleursLePied.printemps2020.forest,
+        tertiaire: couleursLePied.printemps2020.acier,
+        
+        
+        fond: couleursLePied.printemps2020.nuage,
         noir: '#000000',
         blanc: '#ffffff',
       },
@@ -44,6 +59,7 @@ module.exports = {
   },
   variants: {
     margin: ['responsive', 'last'],
+    border: ['hover'],
     opacity: ['group-hover'],
     translate: ['group-hover'],
   },

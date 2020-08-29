@@ -1,16 +1,12 @@
-<a href="{{ .Permalink }}" title="{{ with .Page.CurrentSection.Title | singularize }}{{ . }}:{{ end }}{{ with .Page.Title }} {{ . }}{{ end }}">
+<a href="{{ .Permalink }}"
+   title="{{ with .Page.CurrentSection.Title | singularize }}{{ . }}:{{ end }}{{ with .Page.Title }} {{ . }}{{ end }}"
+   class="text-tertiaire hover:text-secondaire underline hover:no-underline text-2xl md:text-4xl font-bold">
 
-  <section>
-
-    {{- if and (ne .Page.Parent.Kind "taxonomyTerm") .File -}}
-    <div>
-      #{{- .File.TranslationBaseName -}}
-    </div>
-    {{- end -}}
+  <section class="py-3 group">
 
     <h2>
-      {{- if eq .Page.Parent.Kind "taxonomyTerm" }}#{{ end -}}
       {{ .Title | markdownify -}}
+      <span class="inline-block ml-2 opacity-0 group-hover:opacity-100 transform -translate-x-4 group-hover:translate-x-0 transition-transform duration-300 ease-out-expo">&rarr;</span>
       {{- if .Draft }}
       <small>{{ i18n "Draft" | default "Draft" }}</small>
       {{- end -}}
