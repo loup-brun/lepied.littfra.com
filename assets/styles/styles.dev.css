@@ -681,12 +681,39 @@ video {
   }
     }
 
+blockquote {
+  border-left-width: 4px;
+  --border-opacity: 1;
+  border-color: #6A828E;
+  border-color: rgba(106, 130, 142, var(--border-opacity));
+  padding-left: 2rem;
+  --text-opacity: 1;
+  color: #6A828E;
+  color: rgba(106, 130, 142, var(--text-opacity));
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .Article {
-  margin: 1rem;
+  margin: 0.25rem;
   --bg-opacity: 1;
   background-color: #ffffff;
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
+
+@media (min-width: 640px) {
+
+.Article {
+    margin: 0.5rem
+}
+  }
+
+@media (min-width: 768px) {
+
+.Article {
+    margin: 2rem
+}
+  }
 
 /* purgecss end ignore */
 

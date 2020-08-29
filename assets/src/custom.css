@@ -67,6 +67,12 @@
   }
 }
 
+blockquote {
+  @apply border-l-4 border-tertiaire pl-8 text-tertiaire;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .Article {
   @apply m-1 bg-blanc;
 
@@ -74,7 +80,7 @@
     @apply m-2;
   }
   @screen md {
-    @apply m-7
+    @apply m-8;
   }
 }
 /* purgecss end ignore */

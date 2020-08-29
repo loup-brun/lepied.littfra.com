@@ -2,7 +2,7 @@
   {{- $currentPage := . -}}
   {{- range .Site.Menus.main.ByWeight -}}
   <li class="inline-block ml-3 first:ml-0 sm:ml-4 {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}active{{ end }}{{ if .HasChildren }} dropdown{{ end }}">
-    <a href="{{ .URL }}" class="inline-block py-2 ">{{ .Title }}{{ if .HasChildren }} <span>&darr;</span>{{ end }}</a>
+    <a href="{{ .URL }}" class="inline-block py-2 text-secondaire hover:text-fond">{{ .Title }}{{ if .HasChildren }} <span>&darr;</span>{{ end }}</a>
     {{- if .HasChildren -}}
     <ul class="dropdown-list">
       {{- range .Children.ByWeight -}}

@@ -1,5 +1,5 @@
 # Site settings
-baseURL: "http://lepied.littfram.com"
+baseURL: "http://lepied.littfra.com"
 languageCode: "fr-ca"
 defaultContentLanguage: "fr"
 title: "Le Pied"
@@ -21,12 +21,9 @@ params:
   # Metadata for search engines and social sharing
   author: "Le Pied"
   description: "La revue de création des étudiant·e·s en littératures de langue française de l'Université de Montréal."
-  shareImage: "images/shareimage.jpg"
-  appleTouchIcon: "images/apple-touch-icon.png"
+  images:
+  - "/feature.png"
   twitterHandle: "lepied"
-
-  # Favicon
-  favicon: "/images/favicon.png"
 
   # Links
   social_links:

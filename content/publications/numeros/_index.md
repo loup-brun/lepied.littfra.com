@@ -1,3 +1,3 @@
 ---
-title: numeros
+title: numéros
 ---

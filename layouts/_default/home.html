@@ -13,11 +13,9 @@
   </div>
 </header>
 
-<main class="px-6 md:px-8 py-12 max-w-6xl mx-auto">
-  <article class="content text-lg sm:text-xl leading-snug">
-    {{- .Content }}
+<main class="px-6 md:px-8 py-12">
+  <article class="content text-2xl md:text-3xl sm:text-xl leading-snug">
+    {{- .Content -}}
   </article>
-  
-  {{- partial "menus/big-menu.html" . -}}
 </main>
 {{- end }}

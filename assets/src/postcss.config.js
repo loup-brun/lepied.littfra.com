@@ -14,6 +14,7 @@ module.exports = {
             themeDir + 'layouts/**/*.html',
             'layouts/**/*.html',
             'content/**/*.html',
+            'content/**/*.md',
         ],
       whitelist: ['mark', 'li', 'li::before'],
       // Include any special characters you're using in this regular expression

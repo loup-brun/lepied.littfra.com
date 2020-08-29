@@ -11,7 +11,7 @@
 
   <body>
 
-    <header class="bg-primaire text-secondaire py-8">
+    <header class="bg-primaire text-secondaire py-4">
       {{- block "header" . }}
       {{- partial "header.html" . -}}
       {{- end -}}
@@ -21,9 +21,8 @@
     <main class="text-xl leading-snug">
       {{- block "main-inner" . }}
       <article class="Article content px-6 md:px-16 max-w-5xl py-16">
-        
-        
-        <header class="mb-8">
+
+        <header class="mb-4">
           {{ partial "page-header.html" . -}}
         </header>
 
@@ -32,6 +31,7 @@
       {{ end -}}
       
       <div class="px-6 md:px-16 max-w-5xl py-8">
+        <hr class="border-t-2 border-primaire my-8">
         {{ block "big-menu" . -}}
         {{ partial "menus/big-menu.html" . }}
         {{- end }}
