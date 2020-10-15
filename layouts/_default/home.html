@@ -1,19 +1,28 @@
 {{ define "html-class"}}page-accueil{{ end }}
 
 {{ define "main" -}}
-<header class="Accueil bg-primaire text-secondaire px-6 md:px-8 py-20 text-2xl">
-  <div class="Accueil__Container max-w-3xl">
-    <div class="Accueil__titre uppercase text-4xl sm:text-5xl md:text-6xl font-bold mt-12">
+<header class="Accueil bg-quaternaire text-secondaire px-6 md:px-8 py-20 text-2xl relative">
+  <div class="Accueil__Container max-w-3xl z-index-10">
+
+    <div class="Accueil__titre uppercase text-4xl sm:text-5xl md:text-6xl font-bold mt-20">
       {{- $.Site.Title -}}
     </div>
     
     <div class="Accueil__description">
       {{- $.Site.Params.description -}}
     </div>
+
   </div>
+
+  <figure class="absolute w-1/2 sm:w-1/3"
+            style="right: 1rem; bottom: -25%">
+      <img src="/publications/numeros/2020/automne/sandrine-corbeil-illustration-1.png"
+           class="w-full"
+           alt="" />
+    </figure>
 </header>
 
-<main class="px-6 md:px-8 py-12">
+<main class="px-6 md:px-8 py-10">
   <article class="content text-2xl md:text-3xl sm:text-xl leading-snug">
     {{- .Content -}}
   </article>

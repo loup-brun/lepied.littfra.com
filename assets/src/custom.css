@@ -6,11 +6,11 @@
 
 .content {
   a {
-    color: theme('colors.tertiaire');
+    color: theme('colors.quaternaire');
     text-decoration: underline;
     
     &:hover {
-      color: theme('colors.secondaire');
+      color: theme('colors.primaire');
       text-decoration: none;
     }
   }

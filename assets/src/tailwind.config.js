@@ -14,21 +14,33 @@ let couleursLePied = {
     acier: '#6A828E',
     nuage: '#CCCDCF',
     aluminium: '#D4D5D9',
-  }
+  },
+
+  // automne
+  automne2020: {
+    aluminium: '#EBE6E3',
+    peche: '#EFD1AF',
+    orange: '#DB8927',
+    ocre: '#B25A35',
+    mousse: '#C1D9D6v',
+    gris: '#BABEB1',
+    carbone: '#232C33',
+  },
 }
 module.exports = {
   theme: {
     extend: {
       colors: {
         // hiver 2020
-        primaire: couleursLePied.printemps2020.delave,
-        secondaire: couleursLePied.printemps2020.forest,
-        tertiaire: couleursLePied.printemps2020.acier,
+        primaire: couleursLePied.automne2020.orange,
+        secondaire: couleursLePied.automne2020.gris,
+        tertiaire: couleursLePied.automne2020.peche,
+        quaternaire: couleursLePied.automne2020.ocre,
         
         
-        fond: couleursLePied.printemps2020.nuage,
-        noir: '#000000',
-        blanc: '#ffffff',
+        fond: couleursLePied.automne2020.aluminium,
+        noir: couleursLePied.automne2020.carbone,
+        blanc: couleursLePied.automne2020.aluminium,
       },
 //      screens: {
 //        'sm': '640px',

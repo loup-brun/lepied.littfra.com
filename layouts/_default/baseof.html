@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js bg-fond {{ block "html-class" . }} {{ end }}" lang="{{ .Page.Lang }}">
+<html class="no-js bg-fond text-noir {{ block "html-class" . }} {{ end }}" lang="{{ .Page.Lang }}">
 
   <head>
     {{- partial "head/head.html" . -}}
@@ -11,7 +11,7 @@
 
   <body>
 
-    <header class="bg-primaire text-secondaire py-4">
+    <header class="bg-quaternaire text-secondaire py-4">
       {{- block "header" . }}
       {{- partial "header.html" . -}}
       {{- end -}}
@@ -39,7 +39,7 @@
     </main>
     {{- end }}
 
-    <footer class="bg-primaire text-secondaire py-12">
+    <footer class="bg-quaternaire text-secondaire py-12">
       {{- block "footer" . }}
       {{- partial "footer.html" . -}}
       {{- end -}}
