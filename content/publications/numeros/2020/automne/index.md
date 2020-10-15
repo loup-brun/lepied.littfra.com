@@ -1,5 +1,5 @@
 ---
-title: "Automne 2020"
+title: automne 2020
 ---
 
 ![](couverture.png)

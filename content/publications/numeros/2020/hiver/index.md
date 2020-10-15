@@ -1,5 +1,5 @@
 ---
-title: "Hiver 2020"
+title: hiver 2020
 ---
 
 ![image couverture Le Pied hiver 2020 - photo Karolann St-Amand](couverture.png)
