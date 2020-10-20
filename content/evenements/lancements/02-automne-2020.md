@@ -6,6 +6,8 @@ images:
 - /evenements/lancements/2020-automne.png
 ---
 
+_Illustration par Hélène Bughin_
+
 ![couverture automne 2020](/evenements/lancements/2020-automne.png)
 
 L'équipe du Pied vous invite chaleureusement à son prochain lancement, le lundi 5 octobre, en formule 5 à 7 virtuelle, en direct de votre salon/bureau/chambre/balcon (quoiqu'il commence à faire un peu froid).

@@ -1,0 +1,30 @@
+<a href="{{ .Permalink }}"
+   title="{{ with .Page.CurrentSection.Title | singularize }}{{ . }}:{{ end }}{{ with .Page.Title }} {{ . }}{{ end }}"
+   class="">
+
+  <section class="group flex flex-col justify-between h-full p-2 bg-white">
+    
+    {{- if .Params.images }}
+    <figure class="mb-2">
+      <img src="{{ index .Params.images 0 }}"
+           alt="couverture {{ .Title }}"
+           />
+    </figure>
+    {{ end -}}
+
+    {{- if .Params.Date }}
+    <div class="text-sm text-secondaire mb-1 border-b-none">
+      {{- .Params.Date.Format "2006-01-02" -}}
+    </div>
+    {{ end -}}
+
+    <h2 class="text-xl text-primaire group-hover:text-secondaire font-bold">
+      {{ .Title | markdownify -}}
+      <span class="inline-block ml-2 opacity-0 group-hover:opacity-100 transform -translate-x-4 group-hover:translate-x-0 transition-transform duration-300 ease-out-expo">&rarr;</span>
+      {{- if .Draft }}
+      <small>{{ i18n "Draft" | default "Draft" }}</small>
+      {{- end -}}
+    </h2>
+
+  </section>
+</a>

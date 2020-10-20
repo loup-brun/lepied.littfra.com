@@ -475,6 +475,23 @@ img {
   }
     }
 
+.content ul {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+.content ul li {
+      position: relative;
+      padding-left: 1em;
+    }
+
+.content ul li::before {
+        content: '–';
+        display: inline-block;
+        position: absolute;
+        left: 0;
+      }
+
 blockquote {
   border-left-width: 4px;
   --border-opacity: 1;
@@ -611,8 +628,16 @@ blockquote {
   flex-direction: row;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.items-stretch {
+  align-items: stretch;
 }
 
 .justify-end {
@@ -623,12 +648,20 @@ blockquote {
   justify-content: space-between;
 }
 
+.flex-grow {
+  flex-grow: 1;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .text-xs {
@@ -690,6 +723,10 @@ blockquote {
 
 .mb-0 {
   margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
 }
 
 .mb-2 {
@@ -756,6 +793,10 @@ blockquote {
   opacity: 1;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -803,6 +844,14 @@ blockquote {
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .absolute {
@@ -863,6 +912,12 @@ blockquote {
   --text-opacity: 1;
   color: #EBE6E3;
   color: rgba(235, 230, 227, var(--text-opacity));
+}
+
+.group:hover .group-hover\:text-secondaire {
+  --text-opacity: 1;
+  color: #BABEB1;
+  color: rgba(186, 190, 177, var(--text-opacity));
 }
 
 .uppercase {

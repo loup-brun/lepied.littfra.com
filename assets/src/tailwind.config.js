@@ -71,7 +71,8 @@ module.exports = {
   },
   variants: {
     margin: ['responsive', 'last'],
-    border: ['hover'],
+    textColor: ['hover', 'focus', 'active', 'group-hover'],
+    border: ['hover', 'group-hover'],
     opacity: ['group-hover'],
     translate: ['group-hover'],
   },

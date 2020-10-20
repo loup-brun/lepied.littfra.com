@@ -1,5 +1,5 @@
 ---
-title: lancement du numéro printemps 2020
+title: lancement virtuel du numéro printemps 2020
 date: 2020-08-30
 slug: printemps-2020
 images:
