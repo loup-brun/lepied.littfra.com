@@ -1,5 +1,5 @@
 # Site settings
-baseURL: "http://lepied.littfra.com"
+baseURL: ""
 languageCode: "fr-ca"
 defaultContentLanguage: "fr"
 title: "Le Pied"

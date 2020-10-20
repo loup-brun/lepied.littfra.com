@@ -2,9 +2,15 @@
    title="{{ with .Page.CurrentSection.Title | singularize }}{{ . }}:{{ end }}{{ with .Page.Title }} {{ . }}{{ end }}"
    class="text-primaire hover:text-secondaire underline hover:no-underline text-2xl md:text-4xl font-bold">
 
-  <section class="py-3 group">
+  <section class="group p-3 mr-3 mb-3 bg-white">
+    {{ if .Params.images }}
+    <figure style="position: relative; padding-bottom: 142%; overflow: hidden; background-color: #122; background-image: url({{ index .Params.images 0 }}); background-repeat: none; background-size: cover; background-position: right top;"
+            class="mb-3">
+    </figure>
+    {{ end }}
+    
 
-    <h2>
+    <h2 class="text-xl">
       {{ .Title | markdownify -}}
       <span class="inline-block ml-2 opacity-0 group-hover:opacity-100 transform -translate-x-4 group-hover:translate-x-0 transition-transform duration-300 ease-out-expo">&rarr;</span>
       {{- if .Draft }}
