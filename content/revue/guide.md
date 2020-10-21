@@ -3,7 +3,7 @@ title: guide de rédaction
 weight: 4
 ---
 
-**Rédaction**
+## Rédaction
 
 - Utiliser la police Times New Roman, 12 points.
 - Utiliser la graphie traditionnelle.
@@ -34,7 +34,7 @@ weight: 4
   majuscules.
 - Mettre les exposants pour les nombres ordinaux : 1^er^, XVII^e^
 
-**Mise en page**
+## Mise en page
 
 - Rédiger le texte à interligne 1.5 (interligne simple pour les notes
   de bas de page, ainsi que pour les citations en retrait).
@@ -47,7 +47,7 @@ weight: 4
 (C'est possible de ne pas respecter toutes les règles au niveau de la
 mise en page si ça sert le texte, notamment en poésie.)
 
-**Citations**
+## Citations
 
 - Utiliser les guillemets français (« ») pour les citations de moins
   de trois lignes. La citation doit être accompagnée d'un appel de
@@ -64,7 +64,7 @@ mise en page si ça sert le texte, notamment en poésie.)
 - Toute citation à l'intérieur d'une citation même doit être indiquée
   à l'aide des guillemets anglais (" ").
 
-**Notes en bas de page**
+## Notes en bas de page
 
 - Rédiger les notes de bas de page en Times New Roman, 10 points.
 - Le texte des notes est tapé à simple interligne et justifié.
@@ -79,25 +79,25 @@ mise en page si ça sert le texte, notamment en poésie.)
   nouvelles ou de chapitres de livres.
 - Utiliser les modèles suivants pour les notes de bas de page :
 
-**Pour un livre :**
+## Pour un livre
 
 Prénom Nom de l'auteur, *Titre du livre*, (trad. Ou éd. Prénom Nom),
 lieu d'édition : éditeur, coll. « Titre de la collection », année de
 publication \[année de la première édition entre crochets\], p. citée.
 
-**Pour un article de périodique :**
+## Pour un article de périodique
 
 Prénom Nom de l'auteur, « Titre de l'article », *Titre de la revue ou du
 journal*, volume, numéro, date de publication, p. citée.
 
-**Pour un chapitre dans un recueil collectif :**
+## Pour un chapitre dans un recueil collectif
 
 Prénom Nom de l'auteur, « Titre du chapitre », dans Prénom Nom du
 responsable du collectif (dir.), *Titre de l'ouvrage*, vol. ou tome,
 lieu d'édition : éditeur, coll. « Titre de la collection », année de
 publication \[année de la première édition entre crochets\], p. citée.
 
-**Pour un mémoire ou une thèse :**
+## Pour un mémoire ou une thèse
 
 Prénom Nom de l'auteur, « Titre », mémoire de maîtrise ou thèse de
 doctorat, ville de soutenance, département, année de soutenance, nombre
@@ -147,7 +147,8 @@ Autres abréviations utiles :
 - cf. : se reporter à, voir
 - id. : idem
 
-**Bibliographie**
+## Bibliographie
+
 - Utiliser la même police (Times New Roman, 12 points) pour rédiger la
   bibliographie.
 - Rédiger la bibliographie à interligne simple.

@@ -1,7 +1,18 @@
 <nav class="sm:flex sm:flex-row justify-between px-6 md:px-8">
   <div role="contentinfo"
        class="mb-6 sm:mb-0">
-    {{ with .Site.Copyright }}{{ . }}{{ end }}
+    {{- if .Site.Copyright }}
+    {{- if .Site.Params.colophon }}
+    <a href="{{ .Site.Params.colophon | relURL }}"
+       rel="license"
+       class="underline hover:no-underline"
+       >
+    {{ end -}}
+    {{- .Site.Copyright -}}
+    {{- if .Site.Params.colophon -}}
+    </a>
+    {{- end -}}
+    {{ end }}
     {{ .Site.Title }}
     ({{ now | dateFormat "2006" }})
   </div>

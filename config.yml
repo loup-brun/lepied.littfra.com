@@ -23,7 +23,8 @@ params:
   description: "La revue de création des étudiant·e·s en littératures de langue française de l'Université de Montréal."
   images:
   - "/feature.png"
-  twitterHandle: "lepied"
+  
+  colophon: /colophon/
 
   # Links
   social_links:
@@ -31,10 +32,6 @@ params:
     link: "https://www.facebook.com/revuelepied/"
   - text: "instagram"
     link: "https://www.instagram.com/revuelepied/"
-
-  footer_links:
-  - text: "nous joindre"
-    link: "mailto:redaction.lepied@littfra.com?subject=Bonjour!"
 
   # The original template is released under the Creative Commons Attribution 3.0 License.
   # Please keep the original attribution link when using for your own project.

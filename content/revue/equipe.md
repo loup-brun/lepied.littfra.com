@@ -4,45 +4,43 @@ weight: 2
 ---
 
 
-**Rédaction** (redaction.lepied@littfra.com)
+## Rédaction
+(redaction.lepied@littfra.com)
 
-Karolann St-Amand, rédactrice en chef
+- Karolann St-Amand, _rédactrice en chef_
+- Chloé Dassylva, _secrétaire de rédaction_
 
-Chloé Dassylva, secrétaire de rédaction
+## Édition
 
-**Édition**
+- Évelyne Ménard, _éditrice_
+- Audrey-Ann Gascon, _éditrice_
 
-Évelyne Ménard, éditrice
+## Diffusion et organisation des évènements
 
-Audrey-Ann Gascon, éditrice
+- Thomas Genin-Brien, _responsable_
+- Marie Leduc, _responsable_
 
-**Diffusion et organisation des évènements**
+## Rédaction web
 
-Thomas Genin-Brien, responsable
+- Louis-Olivier Brassard, _rédacteur web_
 
-Marie Leduc, responsable
+## Révision
 
-**Rédaction web**
+- Sarah-Jeanne Beauchamp-Houde, _réviseure_
 
-Louis-Olivier Brassard, rédacteur web
+## Infographisme
 
-**Révision**
+- Camille Anctil-Raymond, _responsable de la mise en page_
+- Alexis Penaud, _responsable du visuel_
 
-Sarah-Jeanne Beauchamp-Houde, réviseure
+## Poèmes-affiches
 
-**Infographisme**
+- Joëlle Marcotte, _responsable_
 
-Camille Anctil-Raymond, responsable de la mise en page
+## Micronouvelles
 
-Alexis Penaud, responsable du visuel
+- Nicolas Brayant, _responsable_
 
-**Poèmes-affiches**
+## Fémur, revue de critique littéraire
 
-Joëlle Marcotte, responsable
-
-**Micronouvelles**
-
-Nicolas Brayant, responsable
-
-**Fémur, revue de critique littéraire**
 [site web](https://revuefemur.com/)
