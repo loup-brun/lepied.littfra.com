@@ -44,4 +44,5 @@ Joëlle Marcotte, responsable
 
 Nicolas Brayant, responsable
 
-**Fémur, revue de critique littéraire** -- à retirer
+**Fémur, revue de critique littéraire**
+[site web](https://revuefemur.com/)

@@ -1,7 +1,7 @@
 {{ define "list-section" }}
 
 <ul class="my-10 flex flex-row flex-wrap items-stretch">
-  {{ range .Pages }}
+  {{ range .Pages.Reverse }}
   <li class="w-1/2 md:w-1/3 pb-2 pr-2">
     {{ .Render "summary" }}
   </li>

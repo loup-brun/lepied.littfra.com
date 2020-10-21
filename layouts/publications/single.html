@@ -1,0 +1,23 @@
+{{ define "after-content" }}
+
+{{/* Images */}}
+<div class="flex flex-row flex-wrap">
+  {{ range .Page.Resources.ByType "image" }}
+  {{ if eq (len (findRE "couverture" .Name)) 0 }}
+  <figure class="w-full md:w-1/2 pr-2 pb-2">
+    <a href="{{ .Permalink }}">
+      <img src="{{ .Permalink }}"
+           alt="{{ .Title | default .Name }}"
+           />
+    </a>
+
+    {{- if isset . "Title" }}
+    <figcaption class="text-sm py-2">
+      {{ .Title }}
+    </figcaption>
+    {{ end -}}
+  </figure>
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}

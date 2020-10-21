@@ -1,6 +1,6 @@
 ---
 title: numéros
-weight: 1
+weight: 30
 type: photo-lists
 ---
 
