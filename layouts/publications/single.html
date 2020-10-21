@@ -11,9 +11,9 @@
            />
     </a>
 
-    {{- if isset . "Title" }}
+    {{- if .Params.Title }}
     <figcaption class="text-sm py-2">
-      {{ .Title }}
+      {{ .Params.Title }}
     </figcaption>
     {{ end -}}
   </figure>

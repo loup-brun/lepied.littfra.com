@@ -13,8 +13,9 @@ build:
 	npm run build:styles
 	hugo '--minify'
 
-build-staging:
-	hugo --config=config.yml --minify
+deploy:
+	./deploy.sh
 
 all:
-	make build && ./deploy.sh
+	make build
+	make deploy

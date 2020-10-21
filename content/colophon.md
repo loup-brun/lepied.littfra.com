@@ -6,6 +6,10 @@ title: colophon
 
 Ce site est composé avec la magnifique **Fedra Sans**.
 
+## Code source
+
+Retrouvez le code source de ce site web dans son [dépôt Git public](https://framagit.org/le-pied/lepied.littfra.com).
+
 ## Licence
 
 Tout le contenu de ce site (« l’Œuvre ») est mis à disposition sous licence [Creative Commons - pas d’utilisation commerciale - pas de modification 4.0 international](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.fr) (CC BY-NC-ND 4.0).
