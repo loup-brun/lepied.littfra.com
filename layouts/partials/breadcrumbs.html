@@ -1,4 +1,4 @@
-<nav class="Breadcrumbs text-secondaire py-1">
+<nav class="Breadcrumbs text-secondaire text-base sm:text-lg py-2">
   
   {{- $home := $.Site.Home -}}
   
@@ -23,7 +23,7 @@
      >{{ .p1.Title | markdownify -}}
   </a> 
   {{ end }}
-  <span class="mx-2">&#32;{{ .Site.Params.breadcrumbSeparator | default "/" }}&#32;</span>
+  <span class="mx-1">&#32;{{ .Site.Params.breadcrumbSeparator | default "/" }}&#32;</span>
   {{ else }}
   <a href="{{ .p1.Permalink }}"
      class="text-quaternaire"

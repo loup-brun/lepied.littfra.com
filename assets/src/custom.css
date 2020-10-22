@@ -91,7 +91,7 @@ blockquote {
 }
 
 .Article {
-  @apply m-1 bg-blanc;
+  @apply bg-blanc;
 
   @screen sm {
     @apply m-2;

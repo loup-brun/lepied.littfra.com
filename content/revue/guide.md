@@ -32,7 +32,7 @@ weight: 4
 - Toujours mettre les accents, même sur les majuscules.
 - Ligaturer les Œ, Æ, œ, æ qu'ils soient en minuscules ou en
   majuscules.
-- Mettre les exposants pour les nombres ordinaux : 1^er^, XVII^e^
+- Mettre les exposants pour les nombres ordinaux : 1<sup>er</sup>, XVII<sup>e</sup>
 
 ## Mise en page
 
