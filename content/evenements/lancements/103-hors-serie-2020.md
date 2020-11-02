@@ -1,5 +1,5 @@
 ---
-title: "lancement virtuel du numéro hors-série 2020"
+title: "lancement virtuel du numéro hors série 2020"
 date: 2020-11-03
 slug: hors-serie-2020
 images:
@@ -25,10 +25,22 @@ ______________________
 
 La couverture de ce premier numéro hors série du Pied est l'oeuvre de la talentueuse Emilie Pedneault. À l'intérieur, vous retrouverez les illustrations de Ekymose Laviolette, Judith Ménard, Marie-Hélène Racine, Karolann St-Amand et Mélina Verrier.
 
-Les textes sont signés, non seulement par nos poètes en résidence Hélène Bughin, Catherine Cormier-Larose, Anthony Lacroix, Dominic Marcil, Stéphanie Roussel et Hector Ruiz, mais aussi par les auteur·rice·s Clarence Collinge-Loysel, Mélissa Ferron, Isabelle Grignon-Francke, Sarah Gauthier, Thomas Genin-Brien, Stéphanie Guité, Safia Lukawecki, Sophie Mathieu, Évelyne Ménard, Kevin Ménard, Leïka Morin, Édith Payette, Maxime Poirier-Lemelin et Karolann St-Amand.
+Les textes sont signés, non seulement par nos poètes en résidence Hélène Bughin, Catherine Cormier-Larose, Anthony Lacroix, Dominic Marcil, Stéphanie Roussel et Hector Ruiz, mais aussi par les auteur·rice·s Clarence Collinge-Loysel, Mélissa Ferron, Isabelle Grignon-Francke, Sarah Gauthier, Thomas Genin-Brien, Stéphanie Guité, Safia Lukawecki, Évelyne Ménard, Kevin Ménard, Leïka Morin, Édith Payette, Maxime Poirier-Lemelin et Karolann St-Amand.
 
 Nous tenons à les remercier tou.te.s chaleureusement pour leur travail et leurs magnifiques créations.
 
 [événement facebook](https://www.facebook.com/events/623792524968710/)
 
-pis on va être sur [youtube](https://www.youtube.com/channel/UCgBnEZD-PI67AejwC0TYFRQ)
+pis on va être sur [youtube](https://www.youtube.com/watch?v=mjydHvO_gsE)
+
+## Vote pour ton texte préféré!
+
+<div class="text-center my-10">
+<a href="https://nuage.loupbrun.ca/apps/forms/Lc42nYtq9HJLigHN"
+   class="inline-block px-10 py-4 border-4 border-current text-blanc no-underline"
+   style="text-decoration: none">
+  Formulaire ici
+</a>
+</div>
+
+_(ton vote est anonyme: pas de google, pas de facebook, pas de surveillance par télécaméra zoom – bref, pas de méchants garçons)_

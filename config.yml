@@ -9,7 +9,7 @@ buildFuture: true
 #theme: "boilerplate"
 
 # Copyright
-copyright: "CC BY-NC-ND 4.0"
+copyright: "CC BY-NC"
 
 markup:
   goldmark:

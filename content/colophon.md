@@ -27,6 +27,6 @@ Selon les conditions suivantes :
 
 ## Design et développement
 
-Louis-Olivier Brassard
+[Louis-Olivier Brassard](https://loupbrun.ca)
 
 _d’après un travail colossal de Laurent De Maisonneuve_
