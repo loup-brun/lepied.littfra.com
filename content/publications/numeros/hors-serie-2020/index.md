@@ -8,7 +8,7 @@ images:
 
 ![](couverture.png)
 
-[pdf régulier (22 Mo)](le-pied-hors-serie-2020.pdf)
+[pdf régulier (24 Mo)](lepied-hors-serie-2020.pdf)
 
-[pdf diète (compressé, 1,2 Mo)](le-pied-hors-serie-2020.pdf)
+[pdf diète (compressé, 1,2 Mo)](lepied-hors-serie-2020-compress.pdf)
 

@@ -8,7 +8,7 @@ images:
 
 ![](/evenements/lancements/2020-hors-serie.png)
 
-_Illustration par Emilie Pedneault_
+_Illustration par Emilie Pedneault <small>(<a href="https://instagram.com/emiliepedneault" target="_blank" rel="nofollow noreferrer">@emiliepedneault</a> sur instagram)</small>_
 
 L'équipe du Pied vous invite chaleureusement à son prochain lancement, soit celui du numéro hors série (qui découle du marathon de création tenu au mois de juin dernier), le dernier numéro dirigé par Karolann St-Amand, le ~~mardi 27 octobre~~ **mardi 3 novembre 2020**, en formule 5 à 7 virtuelle, en direct de votre salon/bureau/chambre.
 

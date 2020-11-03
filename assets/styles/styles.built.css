@@ -701,10 +701,6 @@ blockquote {
   font-size: 1rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
 }
@@ -1150,10 +1146,6 @@ blockquote {
 }
 
 @media (min-width: 768px) {
-
-  .md\:text-lg {
-    font-size: 1.125rem;
-  }
 
   .md\:text-3xl {
     font-size: 1.875rem;
