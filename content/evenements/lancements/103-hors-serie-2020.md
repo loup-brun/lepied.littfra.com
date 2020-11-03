@@ -33,8 +33,11 @@ Nous tenons à les remercier tou.te.s chaleureusement pour leur travail et leurs
 
 pis on va être sur [youtube](https://www.youtube.com/watch?v=mjydHvO_gsE)
 
-## Vote pour ton texte préféré!
+## Vote pour ton texte + illustration préféré!
 
+Le formulaire sera disponible à l’heure du lancement, vers 17h.
+
+<!--
 <div class="text-center my-10">
 <a href="https://nuage.loupbrun.ca/apps/forms/Lc42nYtq9HJLigHN"
    class="inline-block px-10 py-4 border-4 border-current text-blanc no-underline"
@@ -44,3 +47,5 @@ pis on va être sur [youtube](https://www.youtube.com/watch?v=mjydHvO_gsE)
 </div>
 
 _(ton vote est anonyme: pas de google, pas de facebook, pas de surveillance par télécaméra zoom – bref, pas de méchants garçons)_
+-->
+
