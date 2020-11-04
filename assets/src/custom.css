@@ -69,18 +69,8 @@
   ul {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-
-    li {
-      position: relative;
-      padding-left: 1em;
-
-      &::before {
-        content: '–';
-        display: inline-block;
-        position: absolute;
-        left: 0;
-      }
-    }
+    padding-left: 1.25em;
+    list-style-type: '– ';
   }
 }
 

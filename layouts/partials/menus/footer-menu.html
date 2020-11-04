@@ -1,9 +1,10 @@
 {{- if .Site.Menus.footer -}}
-<ul>
+<ul class="flex flex-row flex-wrap">
   {{ $currentPage := . }}
   {{- range .Site.Menus.footer -}}
-  <li class="{{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}active{{ end }}">
-    <a href="{{ .URL | relLangURL }}">
+  <li class="mr-3 last:mr-0 {{if or ($currentPage.IsMenuCurrent "main" . ) ($currentPage.HasMenuCurrent "main" . ) }}active{{ end }}">
+    <a href="{{ .URL | relLangURL }}"
+       title="{{ .Title }}">
       {{- .Title -}}
     </a></li>
   {{- end -}}

@@ -53,3 +53,12 @@ menu:
       title: événements
       url: /evenements
       weight: 3
+  footer:
+    - identifier: facebook
+      title: facebook
+      url: https://facebook.com/revuelepied
+      weight: 1
+    - identifier: instagram
+      title: instagram
+      url: https://instagram.com/revuelepied
+      weight: 2

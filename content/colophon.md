@@ -25,8 +25,7 @@ Selon les conditions suivantes :
 - **pas de modifications** – Dans le cas où vous effectuez un remix, que vous transformez, ou créez à partir du matériel composant l'Œuvre originale, vous n'êtes pas autorisé·e à distribuer ou mettre à disposition l'Œuvre modifiée.
 - **pas de restrictions complémentaires** – Vous n'êtes pas autorisé·e à appliquer des conditions légales ou des mesures techniques qui restreindraient légalement autrui à utiliser l'Œuvre dans les conditions décrites par la licence.
 
-## Design et développement
+## Design et développement web
 
-[Louis-Olivier Brassard](https://loupbrun.ca)
-
+[Louis-Olivier Brassard](https://loupbrun.ca)  
 _d’après un travail colossal de Laurent De Maisonneuve_
