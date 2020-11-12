@@ -1,6 +1,7 @@
 ---
 title: hors série, été 2020
 weight: 28
+description: "Le Pied est fier de lancer un numéro hors série pour l’été 2020."
 images:
 - /publications/numeros/hors-serie-ete-2020/couverture.png
 ---

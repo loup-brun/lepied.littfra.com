@@ -2,6 +2,7 @@
 title: "lancement virtuel du numéro hors série 2020"
 date: 2020-11-03
 slug: hors-serie-2020
+description: "Le Pied est fier de lancer un numéro hors série pour l’été 2020."
 images:
 - /evenements/lancements/2020-hors-serie.png
 ---
