@@ -10,7 +10,7 @@ images:
 
 ![image couverture](couverture.png)
 
-[pdf diète (compressé,  Mo)](le-pied-{{replaceRE "[0-9]{2}-(.+)" "$1" .Name}}-compress.pdf)
+[pdf compressé (00 Mo)](le-pied-{{replaceRE "[0-9]{2}-(.+)" "$1" .Name}}-compress.pdf)
 
-[pdf obèse (original,  Mo)](le-pied-{{replaceRE "[0-9]{2}-(.+)" "$1" .Name}}.pdf)
+[pdf original (00 Mo)](le-pied-{{replaceRE "[0-9]{2}-(.+)" "$1" .Name}}.pdf)
 

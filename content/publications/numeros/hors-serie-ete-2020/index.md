@@ -8,9 +8,9 @@ images:
 
 ![couverture par Émilie Pedneault (@emiliepedneault sur instagram)](couverture.png)
 
-[pdf régulier (24 Mo)](lepied-hors-serie-2020.pdf)
+[pdf (24 Mo)](lepied-hors-serie-2020.pdf)
 
-[pdf diète (compressé, 1,2 Mo)](lepied-hors-serie-2020-compress.pdf)
+[pdf compressé (1,2 Mo)](lepied-hors-serie-2020-compress.pdf)
 
 ## Rédaction
 Karolann St-Amand, _rédactrice en chef_
