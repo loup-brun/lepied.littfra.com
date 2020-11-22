@@ -589,10 +589,10 @@ blockquote {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
-.bg-tertiaire {
+.bg-secondaire {
   --bg-opacity: 1;
-  background-color: #EFD1AF;
-  background-color: rgba(239, 209, 175, var(--bg-opacity));
+  background-color: #BABEB1;
+  background-color: rgba(186, 190, 177, var(--bg-opacity));
 }
 
 .bg-quaternaire {
@@ -602,6 +602,12 @@ blockquote {
 }
 
 .bg-fond {
+  --bg-opacity: 1;
+  background-color: #EBE6E3;
+  background-color: rgba(235, 230, 227, var(--bg-opacity));
+}
+
+.bg-blanc {
   --bg-opacity: 1;
   background-color: #EBE6E3;
   background-color: rgba(235, 230, 227, var(--bg-opacity));
@@ -802,10 +808,6 @@ blockquote {
   margin-top: 5rem;
 }
 
-.ml-auto {
-  margin-left: auto;
-}
-
 .last\:mr-0:last-child {
   margin-right: 0;
 }
@@ -834,10 +836,6 @@ blockquote {
   opacity: 1;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -859,11 +857,6 @@ blockquote {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .px-6 {
@@ -896,8 +889,8 @@ blockquote {
   padding-bottom: 5rem;
 }
 
-.pr-1 {
-  padding-right: 0.25rem;
+.pl-1 {
+  padding-left: 0.25rem;
 }
 
 .pr-2 {
@@ -906,10 +899,6 @@ blockquote {
 
 .pb-2 {
   padding-bottom: 0.5rem;
-}
-
-.pr-4 {
-  padding-right: 1rem;
 }
 
 .pr-6 {
@@ -930,6 +919,10 @@ blockquote {
 
 .pb-16 {
   padding-bottom: 4rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .absolute {
@@ -1210,6 +1203,14 @@ blockquote {
 
 @media (min-width: 768px) {
 
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-2 {
+    order: 2;
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
   }
@@ -1226,6 +1227,10 @@ blockquote {
     font-size: 5rem;
   }
 
+  .md\:p-12 {
+    padding: 3rem;
+  }
+
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1236,12 +1241,8 @@ blockquote {
     padding-right: 4rem;
   }
 
-  .md\:pr-8 {
-    padding-right: 2rem;
-  }
-
-  .md\:pl-12 {
-    padding-left: 3rem;
+  .md\:pl-8 {
+    padding-left: 2rem;
   }
 
   .md\:w-1\/2 {
