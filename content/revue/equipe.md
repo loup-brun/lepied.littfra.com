@@ -3,22 +3,21 @@ title: équipe
 weight: 2
 ---
 
-
 ## Rédaction
 (redaction.lepied@littfra.com)
 
-- Karolann St-Amand, _rédactrice en chef_
-- Chloé Dassylva, _secrétaire de rédaction_
+- Évelyne Ménard, _rédactrice en chef_
+- Éléonore Meunier, _secrétaire de rédaction_
 
 ## Édition
 
-- Évelyne Ménard, _éditrice_
 - Audrey-Ann Gascon, _éditrice_
+- Joëlle Marcotte, _éditrice_
+- Arnaud Gagnon, _éditeur_
 
 ## Diffusion et organisation des évènements
 
-- Thomas Genin-Brien, _responsable_
-- Marie Leduc, _responsable_
+- Amélie Fortin, responsable
 
 ## Rédaction web
 
@@ -30,16 +29,34 @@ weight: 2
 
 ## Infographisme
 
-- Camille Anctil-Raymond, _responsable de la mise en page_
-- Alexis Penaud, _responsable du visuel_
+- Maude Ouellete, _responsable de la mise en page_
+- Daniel Gaumond, _responsable de la révision finale_
 
 ## Poèmes-affiches
 
-- Joëlle Marcotte, _responsable_
+- Félicia Dubé, _responsable_
 
-## Micronouvelles
+## Micro-nouvelles
 
 - Nicolas Brayant, _responsable_
+
+## Comité de lecture
+
+- Sandrine Bienvenu
+- Océane Corbin
+- Chloé Dassylva
+- Laurie Daoust St-Jacques
+- Amélie Fortin
+- Daniel Gaumond
+- Sarah Gauthier
+- Fred Gosselin
+- Laurie Michaud
+- Louise Nayagom
+- Sanna Mansouri
+- Eugénie Matthey-Jonais
+- Augustine Poirier
+- Maxime Poirier-Lemelin
+- Adrien Savard-Arsenault
 
 ## Fémur, revue de critique littéraire
 
