@@ -33,17 +33,3 @@ Nous tenons à les remercier tou.te.s chaleureusement pour leur travail et leurs
 [événement facebook](https://www.facebook.com/events/623792524968710/)
 
 pis on va être sur [youtube](https://www.youtube.com/watch?v=mjydHvO_gsE)
-
-## Vote pour ton texte + illustration préféré·e·s!
-
-<div class="text-center my-10">
-<a href="https://nuage.loupbrun.ca/apps/forms/Lc42nYtq9HJLigHN"
-   class="inline-block px-10 py-4 border-4 border-current text-blanc no-underline"
-   style="text-decoration: none">
-  Formulaire ici
-</a>
-</div>
-
-_(ton vote est anonyme: pas de google, pas de facebook, pas de surveillance par télécaméra zoom – bref, pas de méchants garçons)_
-
-
