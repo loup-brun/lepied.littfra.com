@@ -1,6 +1,6 @@
 ---
 title: hiver 2020
-date: 2020-02-01
+date: 2020-02-01T12:00:00-04:00
 weight: 26
 images:
 - /publications/numeros/26-hiver-2020/couverture.png

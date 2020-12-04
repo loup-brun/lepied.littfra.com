@@ -1,6 +1,7 @@
 ---
-title: "20 Automne 2017"
-date: 2020-10-20T21:28:46-04:00
+title: "automne 2017"
+weight: 19
+date: 2017-10-01T12:00:00-04:00
 draft: true
 ---
 
