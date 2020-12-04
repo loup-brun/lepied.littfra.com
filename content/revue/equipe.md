@@ -12,8 +12,8 @@ weight: 2
 ## Édition
 
 - Audrey-Ann Gascon, _éditrice_
-- Joëlle Marcotte, _éditrice_
 - Arnaud Gagnon, _éditeur_
+- Joëlle Marcotte, _éditrice_
 
 ## Diffusion et organisation des évènements
 
@@ -36,7 +36,7 @@ weight: 2
 
 - Félicia Dubé, _responsable_
 
-## Micro-nouvelles
+## Micronouvelles
 
 - Nicolas Brayant, _responsable_
 
