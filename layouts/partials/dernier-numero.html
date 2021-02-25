@@ -1,11 +1,18 @@
 {{ $numeros := $.Site.GetPage "publications/numeros" }}
+{{ $evenements := $.Site.GetPage "evenements/lancements" }}
 
 <div class="flex flex-row flex-wrap items-stretch">
-  <div class="w-full md:w-2/3 md:order-2">
-    <p class="pl-1 md:pl-8 py-20 text-2xl md:text-4xl">
+  <div class="w-full md:w-2/3 md:order-2 content">
+    <p class="pl-1 md:pl-8 pt-20 text-2xl md:text-4xl">
       {{ range first 1 $numeros.Pages.ByDate.Reverse }}
       {{ .Params.description | markdownify }}
       {{ end }}
+    </p>
+    <!-- tmp -->
+      
+    <p class="pl-1 md:pl-8 py-4 text-xl md:text-2xl">
+      lancement : samedi 27 février 2021 à 20h
+      (<a href="/evenements/lancements/hiver-2021/">plus d’info &rarr;</a>)
     </p>
   </div>
   
