@@ -1194,6 +1194,10 @@ blockquote {
     order: 2;
   }
 
+  .md\:text-2xl {
+    font-size: 1.5rem;
+  }
+
   .md\:text-3xl {
     font-size: 1.875rem;
   }
