@@ -46,9 +46,9 @@ module.exports = {
         quaternaire: couleursLePied.hiver2021.bleuFonce,
         
         
-        fond: couleursLePied.automne2020.aluminium,
+        fond: couleursLePied.hiver2021.neige,
         noir: couleursLePied.automne2020.carbone,
-        blanc: couleursLePied.automne2020.aluminium,
+        blanc: couleursLePied.hiver2021.neige,
       },
 //      screens: {
 //        'sm': '640px',

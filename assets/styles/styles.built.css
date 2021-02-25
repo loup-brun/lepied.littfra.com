@@ -421,12 +421,12 @@ img {
 }
 
 .content a {
-    color: #B25A35;
+    color: #4B73C4;
     text-decoration: underline;
   }
 
 .content a:hover {
-      color: #DB8927;
+      color: #AAC3E6;
       text-decoration: none;
     }
 
@@ -446,8 +446,8 @@ img {
 .content hr {
     border-top-width: 2px;
     --border-opacity: 1;
-    border-color: #DB8927;
-    border-color: rgba(219, 137, 39, var(--border-opacity));
+    border-color: #AAC3E6;
+    border-color: rgba(170, 195, 230, var(--border-opacity));
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
@@ -507,20 +507,20 @@ img {
 blockquote {
   border-left-width: 4px;
   --border-opacity: 1;
-  border-color: #EFD1AF;
-  border-color: rgba(239, 209, 175, var(--border-opacity));
+  border-color: #FFFFFF;
+  border-color: rgba(255, 255, 255, var(--border-opacity));
   padding-left: 2rem;
   --text-opacity: 1;
-  color: #EFD1AF;
-  color: rgba(239, 209, 175, var(--text-opacity));
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, var(--text-opacity));
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .Article {
   --bg-opacity: 1;
-  background-color: #EBE6E3;
-  background-color: rgba(235, 230, 227, var(--bg-opacity));
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
 @media (min-width: 640px) {
@@ -589,28 +589,34 @@ blockquote {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
+.bg-primaire {
+  --bg-opacity: 1;
+  background-color: #AAC3E6;
+  background-color: rgba(170, 195, 230, var(--bg-opacity));
+}
+
 .bg-secondaire {
   --bg-opacity: 1;
-  background-color: #BABEB1;
-  background-color: rgba(186, 190, 177, var(--bg-opacity));
+  background-color: #F6F099;
+  background-color: rgba(246, 240, 153, var(--bg-opacity));
 }
 
 .bg-quaternaire {
   --bg-opacity: 1;
-  background-color: #B25A35;
-  background-color: rgba(178, 90, 53, var(--bg-opacity));
+  background-color: #4B73C4;
+  background-color: rgba(75, 115, 196, var(--bg-opacity));
 }
 
 .bg-fond {
   --bg-opacity: 1;
-  background-color: #EBE6E3;
-  background-color: rgba(235, 230, 227, var(--bg-opacity));
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
 .bg-blanc {
   --bg-opacity: 1;
-  background-color: #EBE6E3;
-  background-color: rgba(235, 230, 227, var(--bg-opacity));
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
 .border-current {
@@ -619,8 +625,8 @@ blockquote {
 
 .border-primaire {
   --border-opacity: 1;
-  border-color: #DB8927;
-  border-color: rgba(219, 137, 39, var(--border-opacity));
+  border-color: #AAC3E6;
+  border-color: rgba(170, 195, 230, var(--border-opacity));
 }
 
 .border-t-2 {
@@ -938,26 +944,26 @@ blockquote {
 
 .text-primaire {
   --text-opacity: 1;
-  color: #DB8927;
-  color: rgba(219, 137, 39, var(--text-opacity));
+  color: #AAC3E6;
+  color: rgba(170, 195, 230, var(--text-opacity));
 }
 
 .text-secondaire {
   --text-opacity: 1;
-  color: #BABEB1;
-  color: rgba(186, 190, 177, var(--text-opacity));
+  color: #F6F099;
+  color: rgba(246, 240, 153, var(--text-opacity));
 }
 
 .text-tertiaire {
   --text-opacity: 1;
-  color: #EFD1AF;
-  color: rgba(239, 209, 175, var(--text-opacity));
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, var(--text-opacity));
 }
 
 .text-quaternaire {
   --text-opacity: 1;
-  color: #B25A35;
-  color: rgba(178, 90, 53, var(--text-opacity));
+  color: #4B73C4;
+  color: rgba(75, 115, 196, var(--text-opacity));
 }
 
 .text-noir {
@@ -968,26 +974,26 @@ blockquote {
 
 .hover\:text-primaire:hover {
   --text-opacity: 1;
-  color: #DB8927;
-  color: rgba(219, 137, 39, var(--text-opacity));
+  color: #AAC3E6;
+  color: rgba(170, 195, 230, var(--text-opacity));
 }
 
 .hover\:text-secondaire:hover {
   --text-opacity: 1;
-  color: #BABEB1;
-  color: rgba(186, 190, 177, var(--text-opacity));
+  color: #F6F099;
+  color: rgba(246, 240, 153, var(--text-opacity));
 }
 
 .hover\:text-fond:hover {
   --text-opacity: 1;
-  color: #EBE6E3;
-  color: rgba(235, 230, 227, var(--text-opacity));
+  color: #FFFFFF;
+  color: rgba(255, 255, 255, var(--text-opacity));
 }
 
 .group:hover .group-hover\:text-secondaire {
   --text-opacity: 1;
-  color: #BABEB1;
-  color: rgba(186, 190, 177, var(--text-opacity));
+  color: #F6F099;
+  color: rgba(246, 240, 153, var(--text-opacity));
 }
 
 .uppercase {
