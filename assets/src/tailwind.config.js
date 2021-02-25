@@ -26,16 +26,24 @@ let couleursLePied = {
     gris: '#BABEB1',
     carbone: '#232C33',
   },
+
+  // hiver 2021
+  hiver2021: {
+    bleuBebe: '#AAC3E6',
+    jaunePale: '#F6F099',
+    bleuFonce: '#4B73C4',
+    neige: '#FFFFFF',
+  },
 }
 module.exports = {
   theme: {
     extend: {
       colors: {
         // hiver 2020
-        primaire: couleursLePied.automne2020.orange,
-        secondaire: couleursLePied.automne2020.gris,
-        tertiaire: couleursLePied.automne2020.peche,
-        quaternaire: couleursLePied.automne2020.ocre,
+        primaire: couleursLePied.hiver2021.bleuBebe,
+        secondaire: couleursLePied.hiver2021.jaunePale,
+        tertiaire: couleursLePied.hiver2021.neige,
+        quaternaire: couleursLePied.hiver2021.bleuFonce,
         
         
         fond: couleursLePied.automne2020.aluminium,

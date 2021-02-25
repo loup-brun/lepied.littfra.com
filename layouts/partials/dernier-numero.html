@@ -3,7 +3,7 @@
 <div class="flex flex-row flex-wrap items-stretch">
   <div class="w-full md:w-2/3 md:order-2">
     <p class="pl-1 md:pl-8 py-20 text-2xl md:text-4xl">
-      {{ range first 1 $numeros.Pages.ByDate }}
+      {{ range first 1 $numeros.Pages.ByDate.Reverse }}
       {{ .Params.description | markdownify }}
       {{ end }}
     </p>
@@ -11,7 +11,7 @@
   
   <div class="w-2/3 sm:w-1/2 md:w-1/3 pl-10 md:p-12 relative md:order-1">
     <h2 class="text-xl sm:text-2xl md:text-3xl font-bold transform -rotate-90 origin-top-left h-12 translate-y-12 whitespace-no-wrap absolute bottom-0 left-0">dernier numéro</h2>
-    {{ range first 1 $numeros.Pages.ByDate }}
+    {{ range first 1 $numeros.Pages.ByDate.Reverse }}
     {{ .Render "summary" }}
     {{ end }}
   </div>

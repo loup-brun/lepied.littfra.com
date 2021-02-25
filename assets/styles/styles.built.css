@@ -623,10 +623,6 @@ blockquote {
   border-color: rgba(219, 137, 39, var(--border-opacity));
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border-t-2 {
   border-top-width: 2px;
 }
@@ -874,11 +870,6 @@ blockquote {
   padding-bottom: 2.5rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -941,10 +932,6 @@ blockquote {
   left: 0;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-right {
   text-align: right;
 }
@@ -979,12 +966,6 @@ blockquote {
   color: rgba(35, 44, 51, var(--text-opacity));
 }
 
-.text-blanc {
-  --text-opacity: 1;
-  color: #EBE6E3;
-  color: rgba(235, 230, 227, var(--text-opacity));
-}
-
 .hover\:text-primaire:hover {
   --text-opacity: 1;
   color: #DB8927;
@@ -1015,10 +996,6 @@ blockquote {
 
 .underline {
   text-decoration: underline;
-}
-
-.no-underline {
-  text-decoration: none;
 }
 
 .hover\:no-underline:hover {
