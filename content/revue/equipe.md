@@ -44,16 +44,16 @@ weight: 2
 
 - Sandrine Bienvenu
 - Océane Corbin
-- Chloé Dassylva
 - Laurie Daoust St-Jacques
+- Chloé Dassylva
 - Amélie Fortin
 - Daniel Gaumond
 - Sarah Gauthier
 - Fred Gosselin
-- Laurie Michaud
-- Louise Nayagom
 - Sanna Mansouri
 - Eugénie Matthey-Jonais
+- Laurie Michaud
+- Louise Nayagom
 - Augustine Poirier
 - Maxime Poirier-Lemelin
 - Adrien Savard-Arsenault

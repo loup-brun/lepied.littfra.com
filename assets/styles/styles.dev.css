@@ -691,12 +691,12 @@ video {
 blockquote {
   border-left-width: 4px;
   --border-opacity: 1;
-  border-color: #FFFFFF;
-  border-color: rgba(255, 255, 255, var(--border-opacity));
+  border-color: #AAC3E6;
+  border-color: rgba(170, 195, 230, var(--border-opacity));
   padding-left: 2rem;
   --text-opacity: 1;
-  color: #FFFFFF;
-  color: rgba(255, 255, 255, var(--text-opacity));
+  color: #AAC3E6;
+  color: rgba(170, 195, 230, var(--text-opacity));
   margin-top: 1em;
   margin-bottom: 1em;
 }

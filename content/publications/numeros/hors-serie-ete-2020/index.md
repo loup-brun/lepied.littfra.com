@@ -36,5 +36,3 @@ Camille Anctil-Raymond, _mise en page_
 Alexis Penaud, _responsable du visuel_
 
 ## Prix pour ce numéro
-
-_(vous pourrez aussi [voter pour le prix du public]({{< ref "/evenements/lancements/103-hors-serie-2020/index.md" >}})!)_

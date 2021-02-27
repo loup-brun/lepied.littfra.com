@@ -507,12 +507,12 @@ img {
 blockquote {
   border-left-width: 4px;
   --border-opacity: 1;
-  border-color: #FFFFFF;
-  border-color: rgba(255, 255, 255, var(--border-opacity));
+  border-color: #AAC3E6;
+  border-color: rgba(170, 195, 230, var(--border-opacity));
   padding-left: 2rem;
   --text-opacity: 1;
-  color: #FFFFFF;
-  color: rgba(255, 255, 255, var(--text-opacity));
+  color: #AAC3E6;
+  color: rgba(170, 195, 230, var(--text-opacity));
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -938,6 +938,14 @@ blockquote {
   left: 0;
 }
 
+.shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.hover\:shadow-lg:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
 .text-right {
   text-align: right;
 }
@@ -1053,6 +1061,10 @@ blockquote {
 
 .group:hover .group-hover\:translate-x-0 {
   --transform-translate-x: 0;
+}
+
+.transition-shadow {
+  transition-property: box-shadow;
 }
 
 .transition-transform {
