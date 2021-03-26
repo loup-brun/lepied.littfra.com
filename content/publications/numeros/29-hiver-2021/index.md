@@ -55,7 +55,7 @@ ISSN 2561-3472 (en ligne)
 - Maxime Bost
 - Valérie Clermont-Girard
 - Arnaud Gagnon
-- Daniel Gauond
+- Daniel Gaumond
 - Sarah Gauthier
 - Anna Lacroix
 - Gabrielle-Ève Lane
