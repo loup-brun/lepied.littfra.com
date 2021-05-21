@@ -75,7 +75,7 @@ ISSN 2561-3472 (en ligne)
 - Louis-Olivier Brassard, _rédacteur web_
 
 ## Infographie
-- Maude Ouellete, _mise en page_
+- Maude Ouellette, _mise en page_
 - Daniel Gaumond, _révision finale_
 
 ## Couverture

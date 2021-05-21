@@ -49,14 +49,14 @@ weight: 2
 - Amélie Fortin
 - Daniel Gaumond
 - Sarah Gauthier
-- Fred Gosselin
 - Sanna Mansouri
 - Eugénie Matthey-Jonais
 - Laurie Michaud
+- Marie-Anne Morin
 - Louise Nayagom
 - Augustine Poirier
 - Maxime Poirier-Lemelin
-- Adrien Savard-Arsenault
+- Marie Pouzergue
 
 ## Fémur, revue de critique littéraire
 
