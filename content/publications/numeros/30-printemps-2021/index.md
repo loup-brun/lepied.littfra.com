@@ -10,10 +10,6 @@ images:
 
 ![image couverture](couverture.png)
 
-à venir!
+[pdf compressé (1,5 Mo)](le-pied-printemps-2021-compress.pdf)
 
-<!--
-[pdf compressé (00 Mo)](le-pied-printemps-2021-compress.pdf)
-
-[pdf original (00 Mo)](le-pied-printemps-2021.pdf)
--->
+[pdf original (11,3 Mo)](le-pied-printemps-2021.pdf)
