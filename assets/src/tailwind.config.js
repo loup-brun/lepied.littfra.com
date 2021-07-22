@@ -34,21 +34,29 @@ let couleursLePied = {
     bleuFonce: '#4B73C4',
     neige: '#FFFFFF',
   },
+
+  // printemps 2021
+  printemps2021: {
+    moutarde: '#F8E626',
+    ketchup: '#e16b77',
+    cornichon: '#00664f',
+    eauDeMer: '#2fad76',
+  },
 }
 module.exports = {
   theme: {
     extend: {
       colors: {
         // hiver 2020
-        primaire: couleursLePied.hiver2021.bleuBebe,
-        secondaire: couleursLePied.hiver2021.jaunePale,
-        tertiaire: couleursLePied.hiver2021.neige,
-        quaternaire: couleursLePied.hiver2021.bleuFonce,
+        primaire: couleursLePied.printemps2021.moutarde,
+        secondaire: couleursLePied.printemps2021.cornichon,
+        tertiaire: couleursLePied.printemps2021.ketchup,
+        quaternaire: couleursLePied.printemps2021.eauDeMer,
         
         
-        fond: couleursLePied.hiver2021.neige,
+        fond: couleursLePied.printemps2021.moutarde,
         noir: couleursLePied.automne2020.carbone,
-        blanc: couleursLePied.hiver2021.neige,
+        blanc: couleursLePied.printemps2021.moutarde,
       },
 //      screens: {
 //        'sm': '640px',

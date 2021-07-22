@@ -10,7 +10,7 @@
     text-decoration: underline;
     
     &:hover {
-      color: theme('colors.primaire');
+      color: theme('colors.tertiaire');
       text-decoration: none;
     }
   }
@@ -75,7 +75,7 @@
 }
 
 blockquote {
-  @apply border-l-4 border-primaire pl-8 text-primaire;
+  @apply border-l-4 border-primaire pl-8 text-secondaire;
   margin-top: 1em;
   margin-bottom: 1em;
 }

@@ -52,7 +52,7 @@
              type="{{ .MediaType.Type }}"
              href="{{ .Permalink }}"
              title="RSS"
-             class="text-primaire hover:text-secondaire border-b-2 border-current">RSS&nbsp;&nearr;</a>
+             class="text-quaternaire hover:text-tertiaire border-b-2 border-current">RSS&nbsp;&nearr;</a>
         </footer>
         {{ end -}}
         {{ else }}
@@ -71,7 +71,7 @@
     </main>
     {{- end }}
 
-    <footer class="bg-quaternaire text-secondaire pt-8 pb-16">
+    <footer class="bg-secondaire text-quaternaire pt-8 pb-16">
       {{- block "footer" . }}
       {{- partial "footer.html" . -}}
       {{- end -}}
