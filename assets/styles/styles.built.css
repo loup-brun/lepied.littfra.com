@@ -421,7 +421,7 @@ img {
 }
 
 .content a {
-    color: #2fad76;
+    color: #F8E626;
     text-decoration: underline;
   }
 
@@ -519,8 +519,8 @@ blockquote {
 
 .Article {
   --bg-opacity: 1;
-  background-color: #F8E626;
-  background-color: rgba(248, 230, 38, var(--bg-opacity));
+  background-color: #2fad76;
+  background-color: rgba(47, 173, 118, var(--bg-opacity));
 }
 
 @media (min-width: 640px) {
@@ -589,12 +589,6 @@ blockquote {
   background-color: rgba(255, 255, 255, var(--bg-opacity));
 }
 
-.bg-primaire {
-  --bg-opacity: 1;
-  background-color: #F8E626;
-  background-color: rgba(248, 230, 38, var(--bg-opacity));
-}
-
 .bg-secondaire {
   --bg-opacity: 1;
   background-color: #00664f;
@@ -603,24 +597,18 @@ blockquote {
 
 .bg-fond {
   --bg-opacity: 1;
-  background-color: #F8E626;
-  background-color: rgba(248, 230, 38, var(--bg-opacity));
-}
-
-.bg-blanc {
-  --bg-opacity: 1;
-  background-color: #F8E626;
-  background-color: rgba(248, 230, 38, var(--bg-opacity));
+  background-color: #2fad76;
+  background-color: rgba(47, 173, 118, var(--bg-opacity));
 }
 
 .border-current {
   border-color: currentColor;
 }
 
-.border-primaire {
+.border-secondaire {
   --border-opacity: 1;
-  border-color: #F8E626;
-  border-color: rgba(248, 230, 38, var(--border-opacity));
+  border-color: #00664f;
+  border-color: rgba(0, 102, 79, var(--border-opacity));
 }
 
 .border-t-2 {
