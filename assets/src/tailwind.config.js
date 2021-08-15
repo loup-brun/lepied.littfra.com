@@ -54,9 +54,9 @@ module.exports = {
         quaternaire: couleursLePied.printemps2021.eauDeMer,
         
         
-        fond: couleursLePied.printemps2021.moutarde,
+        fond: couleursLePied.printemps2021.eauDeMer,
         noir: couleursLePied.automne2020.carbone,
-        blanc: couleursLePied.printemps2021.moutarde,
+        blanc: couleursLePied.printemps2021.eauDeMer,
       },
 //      screens: {
 //        'sm': '640px',

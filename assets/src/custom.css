@@ -6,7 +6,7 @@
 
 .content {
   a {
-    color: theme('colors.quaternaire');
+    color: theme('colors.primaire');
     text-decoration: underline;
     
     &:hover {
