@@ -42,21 +42,31 @@ let couleursLePied = {
     cornichon: '#00664f',
     eauDeMer: '#2fad76',
   },
+
+  // automne 2021
+  automne2021: {
+    moutarde: '#F8E65D',
+    canari: '#F8F4D0',
+    ketchup: '#E58C93',
+    eauDeMer: '#B3CEE2',
+    marine: '#313564',
+    carbone: '#232C33',
+  },
 }
 module.exports = {
   theme: {
     extend: {
       colors: {
         // hiver 2020
-        primaire: couleursLePied.printemps2021.moutarde,
-        secondaire: couleursLePied.printemps2021.cornichon,
-        tertiaire: couleursLePied.printemps2021.ketchup,
-        quaternaire: couleursLePied.printemps2021.eauDeMer,
+        primaire: couleursLePied.automne2021.ketchup,
+        secondaire: couleursLePied.automne2021.moutarde,
+        tertiaire: couleursLePied.automne2021.canari,
+        quaternaire: couleursLePied.automne2021.eauDeMer,
         
         
-        fond: couleursLePied.printemps2021.eauDeMer,
-        noir: couleursLePied.automne2020.carbone,
-        blanc: couleursLePied.printemps2021.eauDeMer,
+        fond: couleursLePied.automne2021.eauDeMer,
+        noir: couleursLePied.automne2021.carbone,
+        blanc: couleursLePied.automne2021.eauDeMer,
       },
 //      screens: {
 //        'sm': '640px',

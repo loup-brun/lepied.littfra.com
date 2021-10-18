@@ -17,7 +17,7 @@
 
   <figure class="absolute w-1/2 sm:w-2/5"
             style="top: 0.5rem; right: 0; z-index: 1">
-    <img src="/img/2021-printemps/accueil-printemps.png"
+    <img src="/img/2021-automne/accueil-automne.png"
          class="w-full"
          alt="" />
     </figure>
@@ -27,14 +27,14 @@
   {{ partial "dernier-numero.html" . }}
 </section>
 
-<main class="px-6 md:px-8 py-10 bg- text-primaire">
+<main class="px-6 md:px-8 py-10 bg-fond text-primaire">
   <article class="content text-2xl md:text-3xl sm:text-xl leading-snug">
     {{- .Content -}}
   </article>
 </main>
 
-<section class="px-6 md:px-8 py-10 bg-secondaire">
-    <h1 class="mt-10 text-4xl sm:text-5xl md:text-6xl uppercase leading-none font-bold text-quaternaire pr-6">
+<section class="px-6 md:px-8 py-10 bg-quaternaire">
+    <h1 class="mt-10 text-4xl sm:text-5xl md:text-6xl uppercase leading-none font-bold text-primaire pr-6">
   {{ $.Site.Title }}</h1>
   {{ partial "menus/big-menu.html" . }}
 </section>
