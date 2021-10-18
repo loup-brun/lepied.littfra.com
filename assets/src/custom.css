@@ -17,7 +17,7 @@
   
   strong {
     font-weight: 700;
-    color: theme('colors.secondary');
+    color: theme('colors.secondaire');
   }
   
   em {

@@ -9,7 +9,7 @@ module.exports = {
     // Configuration of purgecss for Tailwindcss
     // see https://tailwindcss.com/docs/controlling-file-size/#setting-up-purgecss
     require('@fullhuman/postcss-purgecss')({
-      // Specify the paths to all of the template files in your project 
+      // Specify the paths to all of the template files in your project
       content: [
             themeDir + 'layouts/**/*.html',
             'layouts/**/*.html',
