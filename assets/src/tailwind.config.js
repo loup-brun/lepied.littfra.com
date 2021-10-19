@@ -82,9 +82,9 @@ module.exports = {
 //        // => @media (min-width: 1280px) { ... }
 //      },
       fontSize: {
-        '4xl': '2.5rem',
-        '5xl': '4rem',
-        '6xl': '5rem'
+        '4xl': ['2.5rem', '2.85rem'],
+        '5xl': ['4rem', '4.5rem'],
+        '6xl': ['5rem', '5.65rem']
       },
       fontFamily: {
        'serif': ['Georgia', 'Cambria', 'serif'],

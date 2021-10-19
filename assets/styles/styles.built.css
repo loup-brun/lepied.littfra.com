@@ -485,7 +485,9 @@ img {
 @media (min-width: 640px) {
 
 .content h1 {
-      font-size: 5rem
+      font-size: 5rem;
+
+      line-height: 5.65rem
   }
     }
 
@@ -497,7 +499,9 @@ img {
 @media (min-width: 640px) {
 
 .content h2 {
-      font-size: 2.5rem
+      font-size: 2.5rem;
+
+      line-height: 2.85rem
   }
     }
 
@@ -884,9 +888,9 @@ blockquote {
   border-color: currentColor;
 }
 
-.border-secondaire {
+.border-primaire {
   --tw-border-opacity: 1;
-  border-color: rgba(248, 230, 93, var(--tw-border-opacity));
+  border-color: rgba(229, 140, 147, var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -1029,6 +1033,7 @@ blockquote {
 
 .text-4xl {
   font-size: 2.5rem;
+  line-height: 2.85rem;
 }
 
 .font-bold {
@@ -1203,10 +1208,12 @@ blockquote {
 
   .sm\:text-4xl {
     font-size: 2.5rem;
+    line-height: 2.85rem;
   }
 
   .sm\:text-5xl {
     font-size: 4rem;
+    line-height: 4.5rem;
   }
 }
 
@@ -1254,13 +1261,16 @@ blockquote {
 
   .md\:text-4xl {
     font-size: 2.5rem;
+    line-height: 2.85rem;
   }
 
   .md\:text-5xl {
     font-size: 4rem;
+    line-height: 4.5rem;
   }
 
   .md\:text-6xl {
     font-size: 5rem;
+    line-height: 5.65rem;
   }
 }
