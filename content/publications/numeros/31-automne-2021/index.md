@@ -10,7 +10,7 @@ images:
 
 ![image couverture](couverture.png)
 
-[pdf compressé (00 Mo)](le-pied-automne-2021-compress.pdf)
+[pdf compressé (2,7 Mo)](le-pied-automne-2021-compress.pdf)
 
-[pdf original (00 Mo)](le-pied-automne-2021.pdf)
+[pdf original (16,7 Mo)](le-pied-automne-2021.pdf)
 
