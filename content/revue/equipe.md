@@ -6,57 +6,57 @@ weight: 2
 ## Rédaction
 (redaction.lepied@littfra.com)
 
-- Évelyne Ménard, _rédactrice en chef_
+- Audrey-Ann Gascon, _rédactrice en chef_
 - Éléonore Meunier, _secrétaire de rédaction_
 
 ## Édition
 
+- Laurianne Beaudoin, _éditrice_
+- Amélie Fortin, _éditrice_
 - Arnaud Gagnon, _éditeur_
-- Audrey-Ann Gascon, _éditrice_
-- Joëlle Marcotte, _éditrice_
+
+## Inclusivité et lutte contre le racisme
+
+- Arilys Jia, _agente_
+- Sanna Mansouri, _agente_
 
 ## Diffusion et organisation des évènements
 
-- Amélie Fortin, responsable
+- Gabriel Deschamps, _responsable_
 
 ## Rédaction web
 
-- Louis-Olivier Brassard, _rédacteur web_
+- Louis-Olivier Brassard, _rédacteur web_
 
 ## Révision
 
-- Sarah-Jeanne Beauchamp-Houde, _réviseure_
+- Camille Saint-Pierre, _réviseure_
 
 ## Infographisme
 
 - Maude Ouellete, _responsable de la mise en page_
-- Daniel Gaumond, _responsable de la révision finale_
 
 ## Poèmes-affiches
 
 - Félicia Dubé, _responsable_
 
-## Micronouvelles
-
-- Nicolas Brayant, _responsable_
-
 ## Comité de lecture
 
+- Mathilde Aubriot-Bertot
+- Amine Baouche
 - Sandrine Bienvenu
-- Océane Corbin
+- Maxime Bost
 - Laurie Daoust St-Jacques
-- Chloé Dassylva
-- Amélie Fortin
-- Daniel Gaumond
-- Sarah Gauthier
+- Gabriel Deschamps
+- Malika Ferrache
+- Gabrielle Huot-Foche
+- Emmanuelle Lescouet
 - Sanna Mansouri
 - Eugénie Matthey-Jonais
-- Laurie Michaud
-- Marie-Anne Morin
 - Louise Nayagom
 - Augustine Poirier
-- Maxime Poirier-Lemelin
-- Marie Pouzergue
+- Félycia Thibaudeau
+- Adriana Rosales Olivos
 
 ## Fémur, revue de critique littéraire
 
