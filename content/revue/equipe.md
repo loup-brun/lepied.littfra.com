@@ -30,7 +30,7 @@ weight: 2
 
 ## Révision
 
-- Camille Saint-Pierre, _réviseure_
+- Camille St-Pierre, _réviseure_
 
 ## Infographisme
 
