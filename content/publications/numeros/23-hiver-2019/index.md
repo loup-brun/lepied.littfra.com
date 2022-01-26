@@ -6,5 +6,5 @@ images:
 - /publications/numeros/25-automne-2019/couverture.png
 ---
 
-- [pdf original](lepied-automne-2019.pdf) (18 Mo)
-- [pdf compressé](lepied-automne-2019-compress.pdf) (1,9 Mo)
+- [pdf original](lepied-hiver-2019.pdf) (18 Mo)
+- [pdf compressé](lepied-hiver-2019-compress.pdf) (1,9 Mo)
