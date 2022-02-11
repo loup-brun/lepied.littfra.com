@@ -3,7 +3,7 @@ title: printemps 2021
 slug: 30-printemps-2021
 date: 2021-07-22
 weight: 30
-description: 
+description: "Le Pied est fier de lancer son numéro de printemps 2021."
 images:
 - /publications/numeros/30-printemps-2021/couverture.png
 ---

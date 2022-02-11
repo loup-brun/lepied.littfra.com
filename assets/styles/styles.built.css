@@ -435,13 +435,13 @@ img {
 }
 
 .content a {
-    color: #E58C93;
+    color: #000000;
     text-decoration: underline;
   }
 
 .content a:hover {
-      color: #F8F4D0;
-      text-decoration: none;
+      color: #F8E65D;
+      /*text-decoration: none;*/
     }
 
 .content strong {
@@ -462,7 +462,7 @@ img {
     margin-bottom: 1.5rem;
     border-top-width: 2px;
     --tw-border-opacity: 1;
-    border-color: rgba(229, 140, 147, var(--tw-border-opacity));
+    border-color: rgba(0, 0, 0, var(--tw-border-opacity));
   }
 
 .content h1,
@@ -529,7 +529,7 @@ img {
 blockquote {
   border-left-width: 4px;
   --tw-border-opacity: 1;
-  border-color: rgba(229, 140, 147, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
   padding-left: 2rem;
   --tw-text-opacity: 1;
   color: rgba(248, 230, 93, var(--tw-text-opacity));
@@ -539,7 +539,7 @@ blockquote {
 
 .Article {
   --tw-bg-opacity: 1;
-  background-color: rgba(179, 206, 226, var(--tw-bg-opacity));
+  background-color: rgba(0, 102, 79, var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
@@ -890,7 +890,7 @@ blockquote {
 
 .border-primaire {
   --tw-border-opacity: 1;
-  border-color: rgba(229, 140, 147, var(--tw-border-opacity));
+  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -900,7 +900,7 @@ blockquote {
 
 .bg-primaire {
   --tw-bg-opacity: 1;
-  background-color: rgba(229, 140, 147, var(--tw-bg-opacity));
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
 }
 
 .bg-quaternaire {
@@ -910,7 +910,7 @@ blockquote {
 
 .bg-fond {
   --tw-bg-opacity: 1;
-  background-color: rgba(179, 206, 226, var(--tw-bg-opacity));
+  background-color: rgba(0, 102, 79, var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -1058,7 +1058,7 @@ blockquote {
 
 .text-primaire {
   --tw-text-opacity: 1;
-  color: rgba(229, 140, 147, var(--tw-text-opacity));
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
 .text-secondaire {
@@ -1068,7 +1068,7 @@ blockquote {
 
 .text-tertiaire {
   --tw-text-opacity: 1;
-  color: rgba(248, 244, 208, var(--tw-text-opacity));
+  color: rgba(0, 102, 79, var(--tw-text-opacity));
 }
 
 .text-quaternaire {
@@ -1078,12 +1078,7 @@ blockquote {
 
 .text-noir {
   --tw-text-opacity: 1;
-  color: rgba(35, 44, 51, var(--tw-text-opacity));
-}
-
-.hover\:text-primaire:hover {
-  --tw-text-opacity: 1;
-  color: rgba(229, 140, 147, var(--tw-text-opacity));
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
 .hover\:text-secondaire:hover {
@@ -1093,7 +1088,7 @@ blockquote {
 
 .hover\:text-tertiaire:hover {
   --tw-text-opacity: 1;
-  color: rgba(248, 244, 208, var(--tw-text-opacity));
+  color: rgba(0, 102, 79, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-secondaire {
