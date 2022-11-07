@@ -440,13 +440,13 @@ img {
   }
 
 .content a:hover {
-      color: #CDB7CE;
+      color: #303C4A;
       /*text-decoration: none;*/
     }
 
 .content strong {
     font-weight: 700;
-    color: #CDB7CE;
+    color: #303C4A;
   }
 
 .content em {
@@ -532,14 +532,14 @@ blockquote {
   border-color: rgba(0, 0, 0, var(--tw-border-opacity));
   padding-left: 2rem;
   --tw-text-opacity: 1;
-  color: rgba(205, 183, 206, var(--tw-text-opacity));
+  color: rgba(48, 60, 74, var(--tw-text-opacity));
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .Article {
   --tw-bg-opacity: 1;
-  background-color: rgba(125, 148, 200, var(--tw-bg-opacity));
+  background-color: rgba(240, 153, 159, var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
@@ -888,9 +888,9 @@ blockquote {
   border-color: currentColor;
 }
 
-.border-primaire {
+.border-quaternaire {
   --tw-border-opacity: 1;
-  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+  border-color: rgba(222, 255, 152, var(--tw-border-opacity));
 }
 
 .bg-white {
@@ -898,14 +898,9 @@ blockquote {
   background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
 }
 
-.bg-primaire {
-  --tw-bg-opacity: 1;
-  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
-}
-
 .bg-secondaire {
   --tw-bg-opacity: 1;
-  background-color: rgba(205, 183, 206, var(--tw-bg-opacity));
+  background-color: rgba(48, 60, 74, var(--tw-bg-opacity));
 }
 
 .bg-quaternaire {
@@ -915,7 +910,7 @@ blockquote {
 
 .bg-fond {
   --tw-bg-opacity: 1;
-  background-color: rgba(125, 148, 200, var(--tw-bg-opacity));
+  background-color: rgba(240, 153, 159, var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -1068,12 +1063,12 @@ blockquote {
 
 .text-secondaire {
   --tw-text-opacity: 1;
-  color: rgba(205, 183, 206, var(--tw-text-opacity));
+  color: rgba(48, 60, 74, var(--tw-text-opacity));
 }
 
 .text-tertiaire {
   --tw-text-opacity: 1;
-  color: rgba(222, 255, 152, var(--tw-text-opacity));
+  color: rgba(240, 153, 159, var(--tw-text-opacity));
 }
 
 .text-quaternaire {
@@ -1088,17 +1083,22 @@ blockquote {
 
 .hover\:text-secondaire:hover {
   --tw-text-opacity: 1;
-  color: rgba(205, 183, 206, var(--tw-text-opacity));
+  color: rgba(48, 60, 74, var(--tw-text-opacity));
 }
 
 .hover\:text-tertiaire:hover {
+  --tw-text-opacity: 1;
+  color: rgba(240, 153, 159, var(--tw-text-opacity));
+}
+
+.hover\:text-quaternaire:hover {
   --tw-text-opacity: 1;
   color: rgba(222, 255, 152, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-secondaire {
   --tw-text-opacity: 1;
-  color: rgba(205, 183, 206, var(--tw-text-opacity));
+  color: rgba(48, 60, 74, var(--tw-text-opacity));
 }
 
 .underline {

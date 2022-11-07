@@ -72,21 +72,34 @@ let couleursLePied = {
     lila: '#CDB7CE',
     carbone: '#232C33',
   },
+
+  // automne 2022
+  automne2022: {
+    pastelrita: '#F0999F',
+    noir: '#000000',
+    canarifluo: '#DEFF98',
+    aciermarine: '#303C4A',
+    turquoise: '#76A99D',
+    mauve: '#A38BBD',
+    ocre: '#CE422B',
+    terracotta: '#E79C7C',
+    creme: '#FAFDFC',
+  },
 }
 module.exports = {
   theme: {
     extend: {
       colors: {
         // printemps 2022
-        primaire: couleursLePied.printemps2022.charbon,
-        secondaire: couleursLePied.printemps2022.lila,
-        tertiaire: couleursLePied.printemps2022.canarifluo,
-        quaternaire: couleursLePied.printemps2022.canarifluo,
+        primaire: couleursLePied.automne2022.noir,
+        secondaire: couleursLePied.automne2022.aciermarine,
+        tertiaire: couleursLePied.automne2022.pastelrita,
+        quaternaire: couleursLePied.automne2022.canarifluo,
 
 
-        fond: couleursLePied.printemps2022.bleulac,
-        noir: couleursLePied.printemps2022.charbon,
-        blanc: couleursLePied.printemps2022.bleulac,
+        fond: couleursLePied.automne2022.pastelrita,
+        noir: couleursLePied.automne2022.noir,
+        blanc: couleursLePied.automne2022.pastelrita,
       },
 //      screens: {
 //        'sm': '640px',
