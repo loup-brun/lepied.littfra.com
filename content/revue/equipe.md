@@ -4,10 +4,10 @@ weight: 2
 ---
 
 ## Rédaction
-(redaction.lepied@littfra.com)
 
-- Audrey-Ann Gascon, _rédactrice en chef_
-- Éléonore Meunier, _secrétaire de rédaction_
+- Amélie Fortin, _rédactrice en chef_
+- Arnaud Gagnon, _secrétaire de rédaction_
+- Jade Maindron, _secrétaire de rédaction_
 
 ## Édition
 
@@ -61,3 +61,4 @@ weight: 2
 ## Fémur, revue de critique littéraire
 
 [site web](https://revuefemur.com/)
+  
