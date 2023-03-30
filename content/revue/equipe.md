@@ -12,8 +12,9 @@ weight: 2
 ## Édition
 
 - Laurianne Beaudoin, _éditrice_
-- Amélie Fortin, _éditrice_
-- Arnaud Gagnon, _éditeur_
+- Félicia Dubé, _éditrice_
+- Sanna Mansouri, _éditrice_
+- Florence Verreault, _réviseure_
 
 ## Inclusivité et lutte contre le racisme
 
