@@ -5,28 +5,31 @@ weight: 2
 
 ## Rédaction
 
-- Amélie Fortin, _rédactrice en chef_
-- Arnaud Gagnon, _secrétaire de rédaction_
+- Amélie Fortin, _co-rédactrice en chef_
+- Arnaud Gagnon, _co-rédacteur en chef_
 - Jade Maindron, _secrétaire de rédaction_
 
 ## Édition
 
 - Laurianne Beaudoin, _éditrice_
-- Félicia Dubé, _éditrice_
+- Félicia Dubé, _éditeurice_
 - Sanna Mansouri, _éditrice_
 - Florence Verreault, _réviseure_
 
 ## Inclusivité et lutte contre le racisme
 
-- Arilys Jia, _agente_
-- Sanna Mansouri, _agente_
+- Arilys Jia, _agente à l'inclusivité et à la lutte contre le racisme_
+- Ridouania Si Allouch, _agente à l'inclusivité et à la lutte contre le racisme_
 
 ## Diffusion et organisation des évènements
 
-- Gabriel Deschamps, _responsable_
+- Florence Beauchemin, _co-responsable des événements et responsable de la diffusion_
+- Charles-William Brière-Gaudet, _co-responsable des événements_
+- Gabriel Deschamps, _responsable des projets connexes_
 
 ## Rédaction web
 
+- Gabrielle Blair, _rédactrice web_
 - Louis-Olivier Brassard, _rédacteur web_
 
 ## Révision
@@ -39,25 +42,22 @@ weight: 2
 
 ## Poèmes-affiches
 
-- Félicia Dubé, _responsable_
+- Emma Pierron, _responsable_
 
 ## Comité de lecture
 
 - Mathilde Aubriot-Bertot
 - Amine Baouche
-- Sandrine Bienvenu
-- Maxime Bost
-- Laurie Daoust St-Jacques
-- Gabriel Deschamps
-- Malika Ferrache
-- Gabrielle Huot-Foche
-- Emmanuelle Lescouet
-- Sanna Mansouri
-- Eugénie Matthey-Jonais
-- Louise Nayagom
+- Gabrielle Blair
+- Charles-William Brière-Gaudet
+- Léa Durivage
+- Mia Gauthier-Gasse
+- Anabelle Guibeault
+- Maude Ouellette
+- Emma Pierron
 - Augustine Poirier
-- Félycia Thibaudeau
-- Adriana Rosales Olivos
+- Laure R. Dumoutier
+- Florence Verreault
 
 ## Fémur, revue de critique littéraire
 
