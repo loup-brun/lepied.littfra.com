@@ -11,30 +11,16 @@ weight: 1
 
 ---
 
-Le Pied est la revue de création littéraire des étudiant·e·s en
-littératures de langue française de l'Université de Montréal. La plupart
-des textes publiés ici sont le fruit de leur travail. Le Pied publie
-aussi les textes d'étudiant·e·s de disciplines connexes, de d'autres
-Universités ou d'anciens étudiant·e·s.
+Le Pied est la revue de création littéraire des étudiant·es en littératures de langue française de l’Université de Montréal. La plupart des textes publiés ici sont le fruit de leur travail. Le Pied publie aussi les textes d’étudiant·es de disciplines connexes, de d’autres Universités ou d’anciens étudiant·es. Grosso mode, le Pied est ouvert à recevoir des textes de tout horizon! 
 
-Le Pied est publié trois fois par année -- hiver, printemps, automne --
-sur papier. Nous acceptons pour publications tous les types de textes :
-créations littéraires (prose, poésie, genre hybride), bandes dessinées,
-pièces de théâtre, récits, et essais sur des sujets littéraires ou
-connexes.
+Traditionnellement, le Pied était publié trois fois par année – hiver, printemps, automne – sur papier. Depuis l’hiver 2023, la revue explore un nouvel échéancier, soit la publication de deux numéros par année – Recto et Verso – toujours sur papier. La revue ne cessant de grandir, cette mesure nous permet, en autres, d’assurer une expérience éditoriale de qualité auprès des auteurices et d’envisager de nouveaux projets. 
 
-Le Pied existe pour deux raisons : permettre aux étudiant·e·s de publier
-leurs textes, et leur permettre de faire l'expérience du milieu de
-l'édition. Le système de correction permet aux auteur·trice·s de
-rencontrer un membre du comité de rédaction pour recevoir des
-commentaires et des suggestions sur leur texte.
+Nous acceptons pour publications tous les types de textes : créations littéraires (prose, poésie, genre hybride), bandes dessinées, pièces de théâtre, récits, et essais sur des sujets littéraires ou connexes.
 
-Les étudiant·e·s intéressé·e·s à participer au processus de production
-de la revue -- papier comme Web -- peuvent se manifester en écrivant à
-<redaction.lepied@littfra.com> en début d'année scolaire. Il est
-toutefois possible d'intégrer le comité de lecture à tout moment dans
-l'année. Il suffit encore une fois de nous envoyer un courriel en
-manifestant son intérêt.
+Le Pied existe pour deux raisons : permettre aux étudiant·es et littéraires de publier leurs textes, et leur permettre de faire l’expérience du milieu de l’édition. Le système de correction permet aux auteurices de rencontrer un membre du comité de rédaction pour recevoir des commentaires et des suggestions sur leur texte.
+
+Les étudiant·es intéressé·es à participer au processus de production de la revue – papier comme Web – peuvent se manifester en écrivant à <redaction.lepied@littfra.com> en début d’année scolaire. Il est toutefois possible d’intégrer le comité de lecture à tout moment dans l’année. Il suffit encore une fois de nous envoyer un courriel en manifestant son intérêt.
+
 
 ## réseaux sociaux
 
